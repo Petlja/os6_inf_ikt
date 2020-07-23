@@ -1,16 +1,39 @@
 courseId: kurs-primer
 lang: sr-Cyrl
-title: Пример курса
+title: Информационо-комуникациона технологија и дигитална писменост
 description:
   willLearn: # list
-    - Научићете 1
-    - Научићете 2
+    - научићете ­како се правилно користи ИКТ уређаје;
+    - научићете да именујете основне компоненте рачунара и ИКТ уређаја;
+    - научићете разлику између трајног и привременог чувања података;
+    - научићете да сачувате и организујете податке на дигиталном уређају; 
+    - научићете да сачувате и организујете податке у облаку података;
+    - научићете да ­креирате и обрађујете дигиталну слику;
+    - научићете да креирате текстуални документ и примените основне акције уноса и едитовања чистог текста;
+    - научићете да ­креирате текстуални документ и примените основне акције едитовања и форматирања (самостално и сараднички);
+    - ­научићете да креирате, уређујете и структурирате текстуални документ који садржи табелу (самостално и сараднички);
+    - научићете да чувате и организујете податке локално и у облаку;
+    - научићете да дефинишете логичку структуру и стилове текста (самостално и сараднички);
+    - научићете да примењујете алате и технике за обраду звучног записа;
+    - научићете да примењујете алате и технике за обраду видео-записа;
+    - научићете процес конверзије типова датотека; 
+    - научићете да уређујете мултимедијалну презентацију која садржи видео и аудио садржаје (самостално и сараднички).
   requirements:
-    - Имаш инсталиран Пајтон
-    - Имаш инсталиран Петљадок
+    - Имаш инсталиран Gimp 2
+    - Имаш инсталиран Audacity
+    - Имаш инсталиран Windows Movie Maker
   toc:
-    - Пример_лекције
-    - Пример_лекције2
+    - Дигитални уређаји
+    - Организација и управљање подацима
+    - Рад са сликама
+    - Рад са текстом унос и едитовање чистог текста
+    - Рад са текстом форматирање карактера и пасуса
+    - Рад са текстом – уметање и форматирање табеле
+    - Рад са текстом – логичка структура и стилови
+    - Рад са звучним записом
+    - Рад са видео-записом
+    - Мултимедијалне презентације
+
   externalLinks: # opciono 
     - text: Синтакса restructuredText
       href: https://docutils.sourceforge.io/docs/user/rst/quickref.html
@@ -18,47 +41,162 @@ description:
       href: https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html
 
 lessons:
-  - title: Наслов_1
-    folder: Пример_лекција1
-    guid: c2c651cd-53d9-4a3d-ba4f-650b8422f0bc
+  - title: Дигитални уређаји
+    folder: Дигитални уређаји
+    guid: b0e3fff5-4d7b-4452-9c27-1a2bb012aec6
     description: Прва лекција
     activities:
       - type: reading
-        title: Пример фајла
-        file: primer_1.rst
+        title: Час 1. Дигитални уређаји
+        file: Час_1_Дигитални_уређаји.rst
         description: #opciono
-        guid: 71c00155-f7f3-410d-8019-e88d22cb7f01
-      - type: reading
-        title: Пример pdf фајла
-        file: primer_dokument.pdf
-        description: ...
-        guid: d90350ae-84e4-4e49-bac8-2d4849e3c409
-      - type: video
-        title: Пример видеа
-        url: https://www.youtube.com/watch?v=flu3-ntQIlE # može da se navede i ceo YT url, a može i samo ID (id u bilo kom yt linku predstavlja 11 karatkera nakon v=)
-        description: ...
-        guid: 61657689-aa6b-46c9-87da-51869d6477ee
+        guid: 7eb982a7-12be-4410-9e7b-7573760f4406
       - type: quiz 
-        title: Пример теста
-        file: primer_test_1.rst
+        title: Тест 1. Дигитални уређаји
+        file: Тест_1_Дигитални_уређаји.rst
         description: ...
-        guid: a725f29a-b323-4a1a-b52d-6eae141bc243
+        guid: 9c3e5dfe-3d36-4266-8637-9adc2fc8ba3e
     archived-activities: # ne smeta ni ako se ostave drugi atribudi iz aktivnosti, ali se gleda samo guid
-      - guid: de4d8ced-7457-4257-a156-250bdb711d65
-      - guid: 22752682-f23f-4df7-b590-e22780fda0a3
-  - title: Naslov_2
-    folder: Пример_лекција2
-    guid: c79a8591-ad06-4e46-9d4d-8ecb5361cf8c
+      - guid: 26b99f78-ce37-458d-ae7d-b78b267d2a1d
+      - guid: f8f550c6-cf18-48c6-bd08-bcb90100d5bd
+  - title: Организација и управљање подацима
+    folder: Организација и управљање подацима
+    guid: 43a7e557-e0db-4dc0-987b-8097b603e496
     description:  Друга лекција
     activities:
       - type: reading
-        title: Primer rst fajla
-        file: primer_2.rst
+        title: Час 2. Организација и управљање подацима
+        file: Час_2_Организација_и_управљање_подацима.rst
         description: #opciono
-        guid: 4576c9a4-2071-4a21-b221-a646477e05be   
+        guid: 7dc2a1ab-726b-4f0e-9dd3-3cd0a3e6e941
+      - type: quiz
+        title: Primer rst fajla
+        file: Тест_2_Организација_и_управљање_подацима.rst
+        description: #opciono
+        guid: 7860a6b2-ddb1-4fe9-b8c4-76ef5fe212d4 
+  - title: Рад са сликама
+    folder: Рад са сликама
+    guid: 14ba6ceb-479c-4f18-ab1f-977531cfc74d
+    description:  Трећа лекција
+    activities:
+      - type: reading
+        title: Час 3. Рад са сликама
+        file: Час_3_Рад_са_сликама.rst
+        description: #opciono
+        guid: ca5de095-3315-4880-8912-efc0cc98d95c 
+      - type: quiz
+        title: Тест 3. Рад са сликама
+        file: Тест_3_Рад_са_сликама.rst
+        description: #opciono
+        guid: a7fc6b62-ee5d-4e3b-a4ef-1f2b9426e5c5
+  - title: Рад са текстом - унос и едитовање чистог текста
+    folder: Рад са текстом унос и едитовање чистог текста
+    guid: efd50b41-e850-46af-b7a5-95b1343848b1
+    description: Четврта лекција
+    activities:
+      - type: reading
+        title: Час 4. Рад са текстом - унос и едитовање чистог текста
+        file: Час_4_Рад_са_текстом_унос_и_едитовање_чистог_текста.rst
+        description: #opciono
+        guid: d4b00abd-f879-4edc-8c1a-637528df76e6
+      - type: quiz 
+        title: Тест 4. Рад са текстом – унос и едитовање чистог текста
+        file: Тест_4_Рад_са_текстом_унос_и_едитовање_чистог_текста.rst
+        description: ...
+        guid: 81bac160-a995-425e-8034-4d3496d868f2
+  - title: Рад са текстом форматирање карактера и пасуса
+    folder: Рад са текстом форматирање карактера и пасуса
+    guid: 75081954-94b6-4157-89c5-c82d6e82f32d
+    description: Пета лекција
+    activities:
+      - type: reading
+        title: Час 5. Рад са текстом форматирање карактера и пасуса
+        file: Час_5_Рад_са_текстом_форматирање_карактера_и_пасуса.rst
+        description: #opciono
+        guid: 08f7ff1c-0896-439e-b0ba-5a53d1387e7a
+      - type: quiz 
+        title: Час 5. Рад са текстом форматирање карактера и пасуса
+        file: Тест_5_Рад_са_текстом_форматирање_карактера_и_пасуса.rst
+        description: ...
+        guid: ed590ef8-6590-47fa-ad86-6d52cfc57bae
+  - title: Рад са текстом – уметање и форматирање табеле
+    folder: Рад са текстом уметање и форматирање табеле
+    guid: 0c6f1be7-45f8-4e43-9669-29e849eafd9d
+    description: Шеста лекција
+    activities:
+      - type: reading
+        title: Час 6. Рад са текстом – уметање и форматирање табеле
+        file: Час_6_Рад_са_текстом_уметање_и_форматирање_табеле.rst
+        description: #opciono
+        guid: 8f6c24e0-579a-46c7-9b92-d3b0642f4964
+      - type: quiz 
+        title: Тест 6. Рад са текстом – уметање и форматирање табеле
+        file: Тест_6_Рад_са_текстом_уметање_и_форматирање_табеле.rst
+        description: ...
+        guid: 54ac3799-fc65-4dd7-9205-16f8e88fe66a
+  - title: Рад са текстом – логичка структура и стилови
+    folder: Рад са текстом логичка структура и стилови
+    guid: ebc1dc56-9867-4fd6-aadc-b394d44127fd
+    description: Седма лекција
+    activities:
+      - type: reading
+        title: Час 7. Рад са текстом – логичка структура и стилови
+        file: Час_7_Рад_са_текстом_логичка_структура_и_стилови.rst
+        description: #opciono
+        guid: 2c4f8e11-749b-4021-9f0c-e089d658e958
+      - type: quiz 
+        title: Тест 7. Рад са текстом – логичка структура и стилови
+        file: Тест_7_Рад_са_текстом_логичка_структура_и_стилови.rst
+        description: ...
+        guid: 72ac8836-7926-486c-9518-d2bdd40229ca
+  - title: Рад са звучним записом
+    folder: Рад са звучним записом
+    guid: 4e7ebdeb-1ea1-428e-b24b-ab15ad768612
+    description: Осма лекција
+    activities:
+      - type: reading
+        title: Час 8. Рад са звучним записом
+        file: Час_8_Рад_са_звучним_записом.rst
+        description: #opciono
+        guid: 4d6b2d4a-8248-4c78-8678-4f64a93eaaf9
+      - type: quiz 
+        title: Тест 8. Рад са звучним записом
+        file: Тест_8_Рад_са_звучним_записом.rst
+        description: ...
+        guid: 9cb33680-197b-405d-85d3-e0c1c5fbcd36
+  - title: Рад са видео-записом
+    folder: Рад са видео записом
+    guid: 9b1c12c2-7b9d-4c90-9493-f0e96b2b8b28
+    description: Девета лекција
+    activities:
+      - type: reading
+        title: Час 9. Рад са видео-записом
+        file: Час_9_Рад_са_видео_записом.rst
+        description: #opciono
+        guid: d8d028fd-b30f-49c6-aec4-8b02d15381a0
+      - type: quiz 
+        title: Тест 9. Рад са видео-записом
+        file: Тест_9_Рад_са_видео_записом.rst
+        description: ...
+        guid: 456dc1c2-8cbc-4823-99ac-77800d62427b
+  - title: Мултимедијалне презентације
+    folder: Мултимедијалне презентације
+    guid: 59bac8be-e924-437b-bfc8-f83480c9df4d
+    description: Десета лекција
+    activities:
+      - type: reading
+        title: Час 10. Мултимедијалне презентације
+        file: Час_10_Мултимедијалне_презентације.rst
+        description: #opciono
+        guid: d73d0d4d-52e9-43a2-a915-d19db3654255
+      - type: quiz 
+        title: Тест 10. Мултимедијалне презентације
+        file: Тест_10_Мултимедијалне_презентације.rst
+        description: ...
+        guid: d2f398cc-802a-41f9-a083-ed5a3d2b67f4
 archived-lessons: # ne smeta ni ako se ostave drugi atribudi iz aktivnosti, ali se gleda samo guid
-  - guid: 3ced8ac6-8be7-4921-bea7-dccf89a7cc79
-  - guid: 29a3a23a-0cdb-4a2b-ad6b-611d36c39db5
+  - guid: f7fc677c-e497-4f47-9efc-6b3762f38c1c
+  - guid: 224664f5-6cdb-453b-bf71-9634fa504956
 
 
 
