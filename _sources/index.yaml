@@ -69,6 +69,11 @@ lessons:
         file: Час_2_Организација_и_управљање_подацима.rst
         description: #opciono
         guid: 7dc2a1ab-726b-4f0e-9dd3-3cd0a3e6e941
+      - type: reading
+        title: Задаци. Организација и управљање подацима
+        file: Задатак_2_Организација_и_управљање_подацима.rst
+        description: #opciono
+        guid: 5697c02d-d3fd-4e70-bbd0-6d3b9d37a8f8
       - type: quiz
         title: Primer rst fajla
         file: Тест_2_Организација_и_управљање_подацима.rst
@@ -84,6 +89,11 @@ lessons:
         file: Час_3_Рад_са_сликама.rst
         description: #opciono
         guid: ca5de095-3315-4880-8912-efc0cc98d95c 
+      - type: reading
+        title: Задаци. Рад са сликама
+        file: Задатак_3_Рад_са_сликама.rst
+        description: #opciono
+        guid: 3ba40e8e-3c5e-4b51-a975-d9d59d7056ff       
       - type: quiz
         title: Тест 3. Рад са сликама
         file: Тест_3_Рад_са_сликама.rst
