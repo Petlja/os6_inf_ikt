@@ -1,65 +1,73 @@
-courseId: kurs-primer
+courseId: 6_razred_IKT_DigitalnaPismenost
 lang: sr-Cyrl
-title: Пример курса
-description:
+title: Дигитална писменост
+description: # opciono  
   willLearn: # list
-    - Научићете 1
-    - Научићете 2
+    - Научићеш шта су рачунарске мреже, које су њихове предности и како се деле
+    - Научићеш шта су интернет адресе, домени и протоколи 
+    - Научићеш да разликујеш основне интернет сервисе и њихову намену
+    - Научићеш како се правилно и одговорно користе ИКТ уређаји у мрежном окружењу
+    - Научићеш да примењујеш поступке и правила за безбедно понашање и представљање на мрежи
+    - Научићеш да препознаш облике дигиталног насиља, како да правилно реагујеш на њега и како да се заштитиш
+    - Научићеш како се претражују, проналазе, процењују и преузимају информације са интернета
+    - Научићеш како се прикупљају подаци путем онлајн упитника
+    - Научићеш на који начин су дигитални призводи и садржаји заштићени лиценцом
   requirements:
-    - Имаш инсталиран Пајтон
-    - Имаш инсталиран Петљадок
+    - Рачунар са приступом интернету
   toc:
-    - Пример_лекције
-    - Пример_лекције2
+    - Рачунарске мреже. Употреба ИКТ уређаја на одговоран и сигуран начин у мрежном окружењу
+    - Интернет сервиси. Правила безбедног рада на Интернету
+    - Претраживање Интернета, одабир резултата и преузимање садржаја
+    - Заштита приватности личних података и ауторских права
   externalLinks: # opciono 
-    - text: Синтакса restructuredText
-      href: https://docutils.sourceforge.io/docs/user/rst/quickref.html
-    - text: Синтакса restructuredText 2
-      href: https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html
-
+    - text: Нет патрола
+      href: http://www.netpatrola.rs/
+    - text: Кликни безбедно
+      href: https://kliknibezbedno.wordpress.com/opsta-bezbednst-na-internetu/
+      
 lessons:
-  - title: Пример_лекција1
-    guid: c2c651cd-53d9-4a3d-ba4f-650b8422f0bc
+  - title: Рачунарске мреже. Употреба ИКТ уређаја на одговоран и сигуран начин у мрежном окружењу
+    folder: Рачунарске мреже. Употреба ИКТ уређаја на одговоран и сигуран начин у мрежном окружењу
+    guid: e12d50e5-8154-42db-bdd7-51fc8713f037
     description: Прва лекција
     activities:
       - type: reading
-        title: Пример фајла
-        file: primer_1.rst
+        title: Рачунарске мреже. Употреба ИКТ уређаја на одговоран и сигуран начин у мрежном окружењу
+        folder: Рачунарске мреже. Употреба ИКТ уређаја на одговоран и сигуран начин у мрежном окружењу
+        file: Рачунарске мреже и употреба ИКТ уређаја на одговоран и сигуран начин у мрежном окружењу.rst
         description: #opciono
-        guid: 71c00155-f7f3-410d-8019-e88d22cb7f01
-      - type: reading
-        title: Пример pdf фајла
-        file: primer_dokument.pdf
-        description: ...
-        guid: d90350ae-84e4-4e49-bac8-2d4849e3c409
-      - type: video
-        title: Пример видеа
-        url: https://www.youtube.com/watch?v=flu3-ntQIlE # može da se navede i ceo YT url, a može i samo ID (id u bilo kom yt linku predstavlja 11 karatkera nakon v=)
-        description: ...
-        guid: 61657689-aa6b-46c9-87da-51869d6477ee
+        guid: 1aaa7fff-6f50-4a2a-b64d-f6f86ca28043
       - type: quiz 
-        title: Пример теста
-        file: primer_test_1.rst
-        description: ...
-        guid: a725f29a-b323-4a1a-b52d-6eae141bc243
+        title: Тест прве лекције
+        folder: Рачунарске мреже. Употреба ИКТ уређаја на одговоран и сигуран начин у мрежном окружењу
+        file: Тест прве лекције.rst
+        description: #opciono
+        guid: 2d27931b-4dd2-4d1a-9982-1b1b294f71e1
     archived-activities: # ne smeta ni ako se ostave drugi atribudi iz aktivnosti, ali se gleda samo guid
       - guid: de4d8ced-7457-4257-a156-250bdb711d65
       - guid: 22752682-f23f-4df7-b590-e22780fda0a3
-  - title: Пример_лекција2
-    guid: c79a8591-ad06-4e46-9d4d-8ecb5361cf8c
+  - title: Интернет сервиси. Правила безбедног рада на Интернету
+    folder: Интернет сервиси. Правила безбедног рада на Интернету
+    guid: 723fc5e0-4b27-4afd-859c-84d3cf8ab783
     description:  Друга лекција
     activities:
       - type: reading
-        title: Primer rst fajla
-        file: primer_2.rst
+        title: Интернет сервиси
+        folder: Интернет сервиси. Правила безбедног рада на Интернету
+        file: Интернет сервиси.rst
         description: #opciono
-        guid: 4576c9a4-2071-4a21-b221-a646477e05be   
-archived-lessons: # ne smeta ni ako se ostave drugi atribudi iz aktivnosti, ali se gleda samo guid
-  - guid: 3ced8ac6-8be7-4921-bea7-dccf89a7cc79
-  - guid: 29a3a23a-0cdb-4a2b-ad6b-611d36c39db5
-
-
-
-
+        guid: 0cca3ec1-bd01-4769-b759-8a1e7e424bdf
+      - type: reading
+        title: Прикупљање података путем онлајн упитника
+        folder: Интернет сервиси. Правила безбедног рада на Интернету
+        file: Прикупљање података путем онлајн упитника.rst
+        description: #opciono
+        guid: 7f16b235-4641-4f9a-8352-9be75f101f15
+      - type: reading
+        title: Правила безбедног рада на Интернету
+        folder: Интернет сервиси. Правила безбедног рада на Интернету
+        file: Правила безбедног рада на Интернету.rst
+        description: #opciono
+        guid: 7e5741f4-eb44-44eb-950d-7d0d1c8010cd
 
 
