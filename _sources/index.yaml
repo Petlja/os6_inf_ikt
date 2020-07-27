@@ -103,6 +103,12 @@ lessons:
         file: Правила безбедног рада на Интернету.rst
         description: #opciono
         guid: 7e5741f4-eb44-44eb-950d-7d0d1c8010cd
+      - type: quiz 
+        title: Тест друге лекције
+        folder: Интернет сервиси. Правила безбедног рада на Интернету
+        file: Тест друге лекције.rst
+        description: #opciono
+        guid: 313c1996-d6cd-448e-bbcb-c823b03d32cd 
   - title: Дигитални уређаји
     folder: Дигитални уређаји
     guid: b0e3fff5-4d7b-4452-9c27-1a2bb012aec6
