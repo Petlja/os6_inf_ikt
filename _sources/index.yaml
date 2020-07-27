@@ -1,8 +1,7 @@
 courseId: 6_razred_IKT_DigitalnaPismenost
 lang: sr-Cyrl
-<<<<<<< HEAD
 title: Дигитална писменост
-description: # opciono  
+description:
   willLearn: # list
     - Научићеш шта су рачунарске мреже, које су њихове предности и како се деле
     - Научићеш шта су интернет адресе, домени и протоколи 
@@ -20,7 +19,6 @@ description: # opciono
     - Интернет сервиси. Правила безбедног рада на Интернету
     - Претраживање Интернета, одабир резултата и преузимање садржаја
     - Заштита приватности личних података и ауторских права
-=======
 title: Информационо-комуникациона технологија и дигитална писменост
 description:
   willLearn: # list
@@ -55,7 +53,6 @@ description:
     - Рад са видео-записом
     - Мултимедијалне презентације
 
->>>>>>> 43ec9de66cd708a36ce392f95c41da44b2bcc957
   externalLinks: # opciono 
     - text: Нет патрола
       href: http://www.netpatrola.rs/
@@ -63,7 +60,6 @@ description:
       href: https://kliknibezbedno.wordpress.com/opsta-bezbednst-na-internetu/
       
 lessons:
-<<<<<<< HEAD
   - title: Рачунарске мреже. Употреба ИКТ уређаја на одговоран и сигуран начин у мрежном окружењу
     folder: Рачунарске мреже. Употреба ИКТ уређаја на одговоран и сигуран начин у мрежном окружењу
     guid: e12d50e5-8154-42db-bdd7-51fc8713f037
@@ -107,7 +103,6 @@ lessons:
         file: Правила безбедног рада на Интернету.rst
         description: #opciono
         guid: 7e5741f4-eb44-44eb-950d-7d0d1c8010cd
-=======
   - title: Дигитални уређаји
     folder: Дигитални уређаји
     guid: b0e3fff5-4d7b-4452-9c27-1a2bb012aec6
@@ -278,6 +273,5 @@ archived-lessons: # ne smeta ni ako se ostave drugi atribudi iz aktivnosti, ali 
 
 
 
->>>>>>> 43ec9de66cd708a36ce392f95c41da44b2bcc957
 
 

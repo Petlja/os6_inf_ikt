@@ -5,3 +5,137 @@
 Постоје бројни онлајн упитници који су у свом основном облику бесплатни за коришћење. Најпознатији су Гугл упитници (Google Forms), Мајкрософтови упитници (Microsoft Forms), Survey Monkey, Poll Everywhere, JarP и други.
 
 Приказаћемо поступак креирања онлајн упитника корак по корак у алату Microsoft Forms на тему дигиталног насиља.
+
+
+.. image:: ../../_images/Upitnik 01.png
+   :width: 600 px   
+   :align: center 
+
+.. image:: ../../_images/Upitnik 02.png
+   :width: 600 px   
+   :align: center 
+
+.. image:: ../../_images/Upitnik 03.png
+   :width: 600 px   
+   :align: center 
+
+.. image:: ../../_images/Upitnik 04.png
+   :width: 600 px   
+   :align: center  
+
+.. image:: ../../_images/Upitnik 05.png
+   :width: 600 px   
+   :align: center  
+
+.. image:: ../../_images/Upitnik 06.png
+   :width: 600 px   
+   :align: center  
+
+.. image:: ../../_images/Upitnik 06a.png
+   :width: 600 px   
+   :align: center 
+
+.. image:: ../../_images/Upitnik 07.png
+   :width: 600 px   
+   :align: center 
+
+.. image:: ../../_images/Upitnik 08.png
+   :width: 600 px   
+   :align: center 
+
+.. image:: ../../_images/Upitnik 09.png
+   :width: 600 px   
+   :align: center 
+
+.. image:: ../../_images/Upitnik 10.png
+   :width: 600 px   
+   :align: center 
+
+.. image:: ../../_images/Upitnik 11.png
+   :width: 600 px   
+   :align: center 
+
+.. image:: ../../_images/Upitnik 12.png
+   :width: 600 px   
+   :align: center 
+
+.. image:: ../../_images/Upitnik 13.png
+   :width: 600 px   
+   :align: center 
+
+.. image:: ../../_images/Upitnik 14.png
+   :width: 600 px   
+   :align: center 
+
+.. image:: ../../_images/Upitnik 15.png
+   :width: 600 px   
+   :align: center  
+
+.. image:: ../../_images/Upitnik 16.png
+   :width: 600 px   
+   :align: center  
+
+.. image:: ../../_images/Upitnik 17.png
+   :width: 600 px   
+   :align: center  
+
+.. image:: ../../_images/Upitnik 18.png
+   :width: 600 px   
+   :align: center 
+
+.. image:: ../../_images/Upitnik 19.png
+   :width: 600 px   
+   :align: center 
+
+.. image:: ../../_images/Upitnik 20.png
+   :width: 600 px   
+   :align: center 
+
+.. image:: ../../_images/Upitnik 21.png
+   :width: 600 px   
+   :align: center 
+
+.. image:: ../../_images/Upitnik 22.png
+   :width: 600 px   
+   :align: center 
+
+.. image:: ../../_images/Upitnik 23.png
+   :width: 600 px   
+   :align: center
+
+
+.. image:: ../../_images/Upitnik 24.png
+   :width: 600 px   
+   :align: center 
+
+.. image:: ../../_images/Upitnik 25.png
+   :width: 600 px   
+   :align: center  
+
+.. image:: ../../_images/Upitnik 26.png
+   :width: 600 px   
+   :align: center  
+
+.. image:: ../../_images/Upitnik 27.png
+   :width: 600 px   
+   :align: center  
+
+.. image:: ../../_images/Upitnik 28.png
+   :width: 600 px   
+   :align: center 
+
+.. image:: ../../_images/Upitnik 29.png
+   :width: 600 px   
+   :align: center 
+
+.. image:: ../../_images/Upitnik 30.png
+   :width: 600 px   
+   :align: center 
+
+.. image:: ../../_images/Upitnik 31.png
+   :width: 600 px   
+   :align: center 
+
+.. image:: ../../_images/Upitnik 32.png
+   :width: 600 px   
+   :align: center 
