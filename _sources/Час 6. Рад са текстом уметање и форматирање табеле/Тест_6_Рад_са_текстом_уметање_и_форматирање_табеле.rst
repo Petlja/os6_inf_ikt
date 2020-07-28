@@ -36,3 +36,33 @@
 
     - :ћелија: Тачно
       :x: Одговор није тачан.
+
+Питање 4.
+~~~~~~~~~
+
+.. mchoice:: L66P4
+    :answer_a: да
+    :feedback_a: Тачно    
+    :answer_b: не
+    :feedback_b: Нетачно
+    :correct: a
+
+	Да ли су колоне у табели представљене по вертикали (усправно)? Означи тачан одговор.
+
+Питање 5.
+~~~~~~~~~
+
+.. mchoice:: L66P5
+    :answer_a: Table → Picture
+    :feedback_a: Нетачно    
+    :answer_b: Table → Shapes
+    :feedback_b: Нетачно
+    :answer_c: Table → Insert Table
+    :feedback_c: Tачно
+    :answer_d: Table → Chart
+    :feedback_d: Нетачно
+    :answer_e: Table → Screenshot
+    :feedback_e: Нетачно
+    :correct: C
+
+	Која опција се користи за уметање табеле у текстуалном документу? Означи тачан одговор.
