@@ -319,7 +319,13 @@ lessons:
         folder: Заштита приватности личних података и ауторских права
         file: Заштита приватности личних података и ауторских права.rst
         description: #opciono
-        guid: b5427537-baf4-4917-a1ed-9504895aa804        
+        guid: b5427537-baf4-4917-a1ed-9504895aa804
+      - type: quiz 
+        title: Тест четврте лекције
+        folder: Заштита приватности личних података и ауторских права
+        file: Тест четврте лекције.rst
+        description: #opciono
+        guid: 1ee22944-c948-4422-a8ec-14de4bb03a62          
 archived-lessons: # ne smeta ni ako se ostave drugi atribudi iz aktivnosti, ali se gleda samo guid
   - guid: f7fc677c-e497-4f47-9efc-6b3762f38c1c
   - guid: 224664f5-6cdb-453b-bf71-9634fa504956
