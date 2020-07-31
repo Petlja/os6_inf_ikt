@@ -59,7 +59,7 @@
 На следећој слици бројевима од 1 до 4 су означене врсте CC лиценци.
 
 .. image:: ../../_images/Licence.png
-    :width: 400px
+    :width: 250px
     :align: center
 
 .. dragndrop:: Типови_лиценци
