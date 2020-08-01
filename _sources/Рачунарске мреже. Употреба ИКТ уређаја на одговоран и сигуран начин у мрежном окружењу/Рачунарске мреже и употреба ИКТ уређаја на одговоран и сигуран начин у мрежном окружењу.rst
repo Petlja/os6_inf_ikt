@@ -25,7 +25,7 @@
 размену порука и садржаја, заједничко коришћење софтвера и хардвера и тимски рад, што повећава ефикасност у комуникацији и пословању смањујући трошкове. Подаци су смештени на једном месту, лакше је њихово одржавање и заштита, а може им се приступити са удаљених локација.
 Подаци, програми и компоненте хардвера које ИКТ уређаји деле у мрежи називају се једним именом ресурски рачунарске мреже.
 
-.. image:: ../../_images/RacunarskaMreza.png
+.. image:: ../../_images/RacunarskaMreza.webp
    :width: 800 px
    :align: center 
 
@@ -40,16 +40,16 @@
 .. image:: ../../_images/UTP_kabl.png
    :width: 600 px
    :align: left 
-.. image:: ../../_images/UTPKabl.png
+.. image:: ../../_images/UTPKabl.jpg
    :width: 600 px
    :align: right 
 
 Данас се користи посебна врста мрежних каблова за умрежавање ИКТ уређаја, а савремени ИКТ уређаји све више се повезују бежично у рачунарску мрежу путем радио, wifi или bluetooth сигнала.
 
-.. image:: ../../_images/bezicno.png
+.. image:: ../../_images/bezicno.webp
    :width: 600 px
    :align: left 
-.. image:: ../../_images/bluetooth.png
+.. image:: ../../_images/bluetooth.webp
    :width: 600 px
    :align: right 
 
