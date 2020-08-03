@@ -303,6 +303,11 @@ lessons:
         file: Претраживање Интернета, одабир резултата и преузимање садржаја.rst
         description: #opciono
         guid: 6913aef4-aa57-4a3d-a45e-9f630f4f26f3
+      - type: video
+        title: Напредна претрага
+        url: https://youtu.be/EnQy9pk36R8 # može da se navede i ceo YT url, a može i samo ID (id u bilo kom yt linku predstavlja 11 karatkera nakon v=)
+        description: #opciono
+        guid: 4396bf69-5e10-4c43-aaf2-84e02e5fc4fd 
       - type: quiz 
         title: Тест треће лекције
         folder: Претраживање Интернета, одабир резултата и преузимање садржаја
