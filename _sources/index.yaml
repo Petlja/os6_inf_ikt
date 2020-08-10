@@ -66,7 +66,7 @@ lessons:
         description: #opciono
         guid: 7eb982a7-12be-4410-9e7b-7573760f4406
       - type: quiz 
-        title: Тест. Дигитални уређаји
+        title: Квиз. Дигитални уређаји
         file: Тест_1_Дигитални_уређаји.rst
         description: ...
         guid: 9c3e5dfe-3d36-4266-8637-9adc2fc8ba3e
@@ -89,7 +89,7 @@ lessons:
         description: #opciono
         guid: 5697c02d-d3fd-4e70-bbd0-6d3b9d37a8f8
       - type: quiz
-        title: Тест. Организација и управљање подацима
+        title: Квиз. Организација и управљање подацима
         file: Тест_2_Организација_и_управљање_подацима.rst
         description: #opciono
         guid: 7860a6b2-ddb1-4fe9-b8c4-76ef5fe212d4 
@@ -109,7 +109,7 @@ lessons:
         description: #opciono
         guid: 3ba40e8e-3c5e-4b51-a975-d9d59d7056ff       
       - type: quiz
-        title: Тест. Рад са сликама
+        title: Квиз. Рад са сликама
         file: Тест_3_Рад_са_сликама.rst
         description: #opciono
         guid: a7fc6b62-ee5d-4e3b-a4ef-1f2b9426e5c5
@@ -124,7 +124,7 @@ lessons:
         description: #opciono
         guid: d4b00abd-f879-4edc-8c1a-637528df76e6
       - type: quiz 
-        title: Тест. Рад са текстом – унос и едитовање чистог текста
+        title: Квиз. Рад са текстом – унос и едитовање чистог текста
         file: Тест_4_Рад_са_текстом_унос_и_едитовање_чистог_текста.rst
         description: ...
         guid: 81bac160-a995-425e-8034-4d3496d868f2
@@ -144,7 +144,7 @@ lessons:
         description: #opciono
         guid: 649c936b-005f-49cd-8cf7-57e7dd4cb91c
       - type: quiz 
-        title: Тест. Рад са текстом форматирање карактера и пасуса
+        title: Квиз. Рад са текстом форматирање карактера и пасуса
         file: Тест_5_Рад_са_текстом_форматирање_карактера_и_пасуса.rst
         description: ...
         guid: ed590ef8-6590-47fa-ad86-6d52cfc57bae
@@ -164,7 +164,7 @@ lessons:
         description: #opciono
         guid: 7b601dcf-1472-44b6-ac3b-d86e58c2df10
       - type: quiz 
-        title: Тест. Рад са текстом – уметање и форматирање табеле
+        title: Квиз. Рад са текстом – уметање и форматирање табеле
         file: Тест_6_Рад_са_текстом_уметање_и_форматирање_табеле.rst
         description: ...
         guid: 54ac3799-fc65-4dd7-9205-16f8e88fe66a
@@ -184,7 +184,7 @@ lessons:
         description: #opciono
         guid: 59ad888b-e376-4650-b61d-bb350407219c
       - type: quiz 
-        title: Тест. Рад са текстом – логичка структура и стилови
+        title: Квиз. Рад са текстом – логичка структура и стилови
         file: Тест_7_Рад_са_текстом_логичка_структура_и_стилови.rst
         description: ...
         guid: 72ac8836-7926-486c-9518-d2bdd40229ca
@@ -204,7 +204,7 @@ lessons:
         description: #opciono
         guid: d7b0dce9-ad3e-4d34-8049-029d65000d08
       - type: quiz 
-        title: Тест. Рад са звучним записом
+        title: Квиз. Рад са звучним записом
         file: Тест_8_Рад_са_звучним_записом.rst
         description: ...
         guid: 9cb33680-197b-405d-85d3-e0c1c5fbcd36
@@ -224,7 +224,7 @@ lessons:
         description: #opciono
         guid: 931e0957-6aca-4e00-bdf1-1110e4cd0520      
       - type: quiz 
-        title: Тест. Рад са видео-записом
+        title: Квиз. Рад са видео-записом
         file: Тест_9_Рад_са_видео_записом.rst
         description: ...
         guid: 456dc1c2-8cbc-4823-99ac-77800d62427b
@@ -239,7 +239,7 @@ lessons:
         description: #opciono
         guid: d73d0d4d-52e9-43a2-a915-d19db3654255
       - type: quiz 
-        title: Тест. Мултимедијалне презентације
+        title: Квиз. Мултимедијалне презентације
         file: Тест_10_Мултимедијалне_презентације.rst
         description: ...
         guid: d2f398cc-802a-41f9-a083-ed5a3d2b67f4
