@@ -49,14 +49,20 @@ description:
     - Заштита приватности личних података и ауторских права
 
   externalLinks: # opciono 
+    - text: Паметно и безбедно
+      href: https://pametnoibezbedno.gov.rs/
     - text: Нет патрола
       href: http://www.netpatrola.rs/
     - text: Кликни безбедно
       href: https://kliknibezbedno.wordpress.com/opsta-bezbednst-na-internetu/
+    - text: Шта је дигитално насиље и како да га зауставимо
+      href: https://www.unicef.org/serbia/zaustavimo-digitalno-nasilje
+    - text: Све боје интернета
+      href: https://www.youtube.com/playlist?list=PLG6HMr6sRAxk5fYkFHmTrZEFoY4dkhE_V
       
 lessons:
-  - title: Час 1. Дигитални уређаји
-    folder: Час 1. Дигитални уређаји
+  - title: Час 1.1. Дигитални уређаји
+    folder: Час 1.1. Дигитални уређаји
     guid: b0e3fff5-4d7b-4452-9c27-1a2bb012aec6
     description: Прва лекција
     activities:
@@ -73,8 +79,8 @@ lessons:
     archived-activities: # ne smeta ni ako se ostave drugi atribudi iz aktivnosti, ali se gleda samo guid
       - guid: 26b99f78-ce37-458d-ae7d-b78b267d2a1d
       - guid: f8f550c6-cf18-48c6-bd08-bcb90100d5bd
-  - title: Час 2. Организација и управљање подацима
-    folder: Час 2. Организација и управљање подацима
+  - title: Час 1.2. Организација и управљање подацима
+    folder: Час 1.2. Организација и управљање подацима
     guid: 43a7e557-e0db-4dc0-987b-8097b603e496
     description:  Друга лекција
     activities:
@@ -93,8 +99,8 @@ lessons:
         file: Тест_2_Организација_и_управљање_подацима.rst
         description: #opciono
         guid: 7860a6b2-ddb1-4fe9-b8c4-76ef5fe212d4 
-  - title: Час 3. Рад са сликама
-    folder: Час 3. Рад са сликама
+  - title: Час 1.3. Рад са сликама
+    folder: Час 1.3. Рад са сликама
     guid: 14ba6ceb-479c-4f18-ab1f-977531cfc74d
     description:  Трећа лекција
     activities:
@@ -113,8 +119,8 @@ lessons:
         file: Тест_3_Рад_са_сликама.rst
         description: #opciono
         guid: a7fc6b62-ee5d-4e3b-a4ef-1f2b9426e5c5
-  - title: Час 4. Рад са текстом - унос и едитовање чистог текста
-    folder: Час 4. Рад са текстом унос и едитовање чистог текста
+  - title: Час 1.4. Рад са текстом - унос и едитовање чистог текста
+    folder: Час 1.4. Рад са текстом унос и едитовање чистог текста
     guid: efd50b41-e850-46af-b7a5-95b1343848b1
     description: Четврта лекција
     activities:
@@ -128,8 +134,8 @@ lessons:
         file: Тест_4_Рад_са_текстом_унос_и_едитовање_чистог_текста.rst
         description: ...
         guid: 81bac160-a995-425e-8034-4d3496d868f2
-  - title: Час 5. Рад са текстом форматирање карактера и пасуса
-    folder: Час 5. Рад са текстом форматирање карактера и пасуса
+  - title: Час 1.5. Рад са текстом форматирање карактера и пасуса
+    folder: Час 1.5. Рад са текстом форматирање карактера и пасуса
     guid: 75081954-94b6-4157-89c5-c82d6e82f32d
     description: Пета лекција
     activities:
@@ -148,8 +154,8 @@ lessons:
         file: Тест_5_Рад_са_текстом_форматирање_карактера_и_пасуса.rst
         description: ...
         guid: ed590ef8-6590-47fa-ad86-6d52cfc57bae
-  - title: Час 6. Рад са текстом – уметање и форматирање табеле
-    folder: Час 6. Рад са текстом уметање и форматирање табеле
+  - title: Час 1.6. Рад са текстом – уметање и форматирање табеле
+    folder: Час 1.6. Рад са текстом уметање и форматирање табеле
     guid: 0c6f1be7-45f8-4e43-9669-29e849eafd9d
     description: Шеста лекција
     activities:
@@ -168,8 +174,8 @@ lessons:
         file: Тест_6_Рад_са_текстом_уметање_и_форматирање_табеле.rst
         description: ...
         guid: 54ac3799-fc65-4dd7-9205-16f8e88fe66a
-  - title: Час 7. Рад са текстом – логичка структура и стилови
-    folder: Час 7. Рад са текстом логичка структура и стилови
+  - title: Час 1.7. Рад са текстом – логичка структура и стилови
+    folder: Час 1.7. Рад са текстом логичка структура и стилови
     guid: ebc1dc56-9867-4fd6-aadc-b394d44127fd
     description: Седма лекција
     activities:
@@ -188,8 +194,8 @@ lessons:
         file: Тест_7_Рад_са_текстом_логичка_структура_и_стилови.rst
         description: ...
         guid: 72ac8836-7926-486c-9518-d2bdd40229ca
-  - title: Час 8. Рад са звучним записом
-    folder: Час 8. Рад са звучним записом
+  - title: Час 1.8. Рад са звучним записом
+    folder: Час 1.8. Рад са звучним записом
     guid: 4e7ebdeb-1ea1-428e-b24b-ab15ad768612
     description: Осма лекција
     activities:
@@ -208,8 +214,8 @@ lessons:
         file: Тест_8_Рад_са_звучним_записом.rst
         description: ...
         guid: 9cb33680-197b-405d-85d3-e0c1c5fbcd36
-  - title: Час 9. Рад са видео-записом
-    folder: Час 9. Рад са видео записом
+  - title: Час 1.9. Рад са видео-записом
+    folder: Час 1.9. Рад са видео записом
     guid: 9b1c12c2-7b9d-4c90-9493-f0e96b2b8b28
     description: Девета лекција
     activities:
@@ -228,8 +234,8 @@ lessons:
         file: Тест_9_Рад_са_видео_записом.rst
         description: ...
         guid: 456dc1c2-8cbc-4823-99ac-77800d62427b
-  - title: Час 10. Мултимедијалне презентације
-    folder: Час 10. Мултимедијалне презентације
+  - title: Час 1.10. Мултимедијалне презентације
+    folder: Час 1.10. Мултимедијалне презентације
     guid: 59bac8be-e924-437b-bfc8-f83480c9df4d
     description: Десета лекција
     activities:
@@ -243,80 +249,74 @@ lessons:
         file: Тест_10_Мултимедијалне_презентације.rst
         description: ...
         guid: d2f398cc-802a-41f9-a083-ed5a3d2b67f4
-  - title: Рачунарске мреже. Употреба ИКТ уређаја на одговоран и сигуран начин у мрежном окружењу
-    folder: Рачунарске мреже. Употреба ИКТ уређаја на одговоран и сигуран начин у мрежном окружењу
+  - title: Час 2.1. Рачунарске мреже.Употреба ИКТ уређаја на одговоран и сигуран начин у мрежном окружењу
+    folder: Час 2.1. Рачунарске мреже. Употреба ИКТ уређаја у мрежном окружењу
     guid: e12d50e5-8154-42db-bdd7-51fc8713f037
     description: Прва лекција
     activities:
       - type: reading
-        title: Рачунарске мреже. Употреба ИКТ уређаја на одговоран и сигуран начин у мрежном окружењу
-        folder: Рачунарске мреже. Употреба ИКТ уређаја на одговоран и сигуран начин у мрежном окружењу
+        title: Рачунарске мреже и употреба ИКТ уређаја на одговоран и сигуран начин у мрежном окружењу
+        folder: Час 2.1. Рачунарске мреже. Употреба ИКТ уређаја у мрежном окружењу
         file: Рачунарске мреже и употреба ИКТ уређаја на одговоран и сигуран начин у мрежном окружењу.rst
         description: #opciono
         guid: 1aaa7fff-6f50-4a2a-b64d-f6f86ca28043
       - type: quiz 
-        title: Тест прве лекције
-        folder: Рачунарске мреже. Употреба ИКТ уређаја на одговоран и сигуран начин у мрежном окружењу
-        file: Тест прве лекције.rst
+        title: Квиз прве лекције
+        folder: Час 2.1. Рачунарске мреже. Употреба ИКТ уређаја у мрежном окружењу
+        file: Квиз прве лекције.rst
         description: #opciono
         guid: 2d27931b-4dd2-4d1a-9982-1b1b294f71e1
     archived-activities: # ne smeta ni ako se ostave drugi atribudi iz aktivnosti, ali se gleda samo guid
       - guid: de4d8ced-7457-4257-a156-250bdb711d65
       - guid: 22752682-f23f-4df7-b590-e22780fda0a3
-  - title: Интернет сервиси. Правила безбедног рада на Интернету
-    folder: Интернет сервиси. Правила безбедног рада на Интернету
+  - title: Час 2.2. Интернет сервиси. Правила безбедног рада на Интернету
+    folder: Час 2.2. Интернет сервиси. Правила безбедног рада на Интернету
     guid: 723fc5e0-4b27-4afd-859c-84d3cf8ab783
     description:  Друга лекција
     activities:
       - type: reading
         title: Интернет сервиси
-        folder: Интернет сервиси. Правила безбедног рада на Интернету
+        folder: Час 2.2. Интернет сервиси. Правила безбедног рада на Интернету
         file: Интернет сервиси.rst
         description: #opciono
         guid: 0cca3ec1-bd01-4769-b759-8a1e7e424bdf
       - type: reading
         title: Прикупљање података путем онлајн упитника
-        folder: Интернет сервиси. Правила безбедног рада на Интернету
+        folder: Час 2.2. Интернет сервиси. Правила безбедног рада на Интернету
         file: Прикупљање података путем онлајн упитника.rst
         description: #opciono
         guid: 7f16b235-4641-4f9a-8352-9be75f101f15
       - type: reading
         title: Правила безбедног рада на Интернету
-        folder: Интернет сервиси. Правила безбедног рада на Интернету
+        folder: Час 2.2. Интернет сервиси. Правила безбедног рада на Интернету
         file: Правила безбедног рада на Интернету.rst
         description: #opciono
         guid: 7e5741f4-eb44-44eb-950d-7d0d1c8010cd
       - type: quiz 
-        title: Тест друге лекције
-        folder: Интернет сервиси. Правила безбедног рада на Интернету
-        file: Тест друге лекције.rst
+        title: Квиз друге лекције
+        folder: Час 2.2. Интернет сервиси. Правила безбедног рада на Интернету
+        file: Квиз друге лекције.rst
         description: #opciono
         guid: 313c1996-d6cd-448e-bbcb-c823b03d32cd 
-  - title: Претраживање Интернета, одабир резултата и преузимање садржаја
-    folder: Претраживање Интернета, одабир резултата и преузимање садржаја
+  - title: Час 2.3. Претраживање Интернета, одабир резултата и преузимање садржаја
+    folder: Час 2.3. Претраживање Интернета, одабир резултата и преузимање садржаја
     guid: bbf6640d-c6ef-49e3-8da6-2bcbf7a22edf
     description:  Трећа лекција
     activities:
       - type: reading
         title: Претраживање Интернета, одабир резултата и преузимање садржаја
-        folder: Претраживање Интернета, одабир резултата и преузимање садржаја
+        folder: Час 2.3. Претраживање Интернета, одабир резултата и преузимање садржаја
         file: Претраживање Интернета, одабир резултата и преузимање садржаја.rst
         description: #opciono
         guid: 6913aef4-aa57-4a3d-a45e-9f630f4f26f3
-      - type: video
-        title: Напредна претрага
-        folder: Претраживање Интернета, одабир резултата и преузимање садржаја
-        url: https://www.youtube.com/watch?v=EnQy9pk36R8&list=PL9r2JbslQP7YWFb-UgX5OgZRo3ImNpZda&index=2&t=0s # može da se navede i ceo YT url, a može i samo ID (id u bilo kom yt linku predstavlja 11 karatkera nakon v=)
-        description: #opciono
-        guid: 4396bf69-5e10-4c43-aaf2-84e02e5fc4fd 
       - type: quiz 
-        title: Тест треће лекције
-        folder: Претраживање Интернета, одабир резултата и преузимање садржаја
-        file: Тест треће лекције.rst
+        title: Квиз треће лекције
+        folder: Час 2.3. Претраживање Интернета, одабир резултата и преузимање садржаја
+        file: Квиз треће лекције.rst
         description: #opciono
         guid: 89fa77d7-2cff-43a3-9d90-4c0aa736b2bc
-  - title: Заштита приватности личних података и ауторскa права
-    folder: Заштита приватности личних података и ауторскa права
+  - title: Час 2.4. Заштита приватности личних података и ауторскa права
+    folder: Час 2.4. Заштита приватности личних података и ауторскa права
     guid: 0e28b78b-eb55-446b-9bef-8dcff9a4d55c
     description:  Четврта лекција
     activities:
@@ -326,16 +326,16 @@ lessons:
         file: Заштита приватности личних података и ауторскa права.rst
         description: #opciono
         guid: b5427537-baf4-4917-a1ed-9504895aa804
-      - type: video
+      - type: reading
         title: Creative Commons лиценце
-        folder: Заштита приватности личних података и ауторскa права
-        url: https://www.youtube.com/watch?v=-n7qm4VeamU # može da se navede i ceo YT url, a može i samo ID (id u bilo kom yt linku predstavlja 11 karatkera nakon v=)
+        folder: Час 2.4. Заштита приватности личних података и ауторскa права
+        file: Creative Commons лиценце.rst
         description: #opciono
-        guid: f92a74b9-fe1a-40b2-a22b-fb679cdeca73
+        guid: e3465102-06ea-4c18-b9ec-e5508e7585f3
       - type: quiz 
-        title: Тест четврте лекције
-        folder: Заштита приватности личних података и ауторскa права
-        file: Тест четврте лекције.rst
+        title: Квиз четврте лекције
+        folder: Час 2.4. Заштита приватности личних података и ауторскa права
+        file: Квиз четврте лекције.rst
         description: #opciono
         guid: 1ee22944-c948-4422-a8ec-14de4bb03a62          
 archived-lessons: # ne smeta ni ako se ostave drugi atribudi iz aktivnosti, ali se gleda samo guid
