@@ -1,0 +1,77 @@
+Квиз. Рад са видео записом
+============================
+
+Питање 1.
+~~~~~~~~~
+
+.. fillintheblank:: L69P1
+
+    Преузми датотеку Film.wmv и промени тип датотеке у .mp4 коришћењем програма за конверзију типова датотека.
+    Колико меморијског простора (у MB) заузима Film.wmv?
+
+    Одговор: |blank|
+
+    - :25147: Тачно
+      :x: Одговор није тачан.
+
+
+Питање 2.
+~~~~~~~~~
+
+.. fillintheblank:: L69P2
+
+    Преузми датотеку Film.wmv и промени тип датотеке у .mp4 коришћењем програма за конверзију типова датотека.
+    Колико меморијског простора (у MB) заузима Film.mp4?
+
+    Одговор: |blank|
+
+    - :154522: Тачно
+      :x: Одговор није тачан.
+
+Питање 3.
+~~~~~~~~~
+
+.. mchoice:: L69P3
+    :answer_a: Open
+    :feedback_a: Нетачно    
+    :answer_b: Edit
+    :feedback_b: Нетачно
+    :answer_c: Add videos and photos
+    :feedback_c: Tачно
+    :answer_d: Add music
+    :feedback_d: Нетачно 
+    :correct: c
+
+	Коју опцију користимо за додавање већ снимљеног видео-записа? Означи тачан одговор.
+
+Питање 4.
+~~~~~~~~~
+
+.. mchoice:: L69P4
+    :answer_a: Open
+    :feedback_a: Нетачно    
+    :answer_b: Backgroundcolor
+    :feedback_b: Тачно
+    :answer_c: Add videos and photos
+    :feedback_c: Нетачно
+    :answer_d: Add music
+    :feedback_d: Нетачно 
+    :correct: b
+
+	Коју опцију користимо за подешавање позадинске боје видео-записа? Означи тачан одговор.
+
+Питање 5.
+~~~~~~~~~
+
+.. mchoice:: L69P5
+    :answer_a: Add music
+    :feedback_a: Нетачно    
+    :answer_b: Backgroundcolor
+    :feedback_b: Нетачно
+    :answer_c: Add videos and photos
+    :feedback_c: Нетачно
+    :answer_d: Trim
+    :feedback_d: Tачно 
+    :correct: d
+
+	Коју опцију користимо за одбацивање нежељених делова снимљеног видео-записа? Означи тачан одговор.
