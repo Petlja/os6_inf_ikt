@@ -47,7 +47,7 @@
 
 	Погледај слику.
         
-    .. image:: ../../_images/L65S11.png
+    .. image:: ../../_images/L65S11.PNG
         :width: 100px
         :align: center
 
@@ -81,7 +81,7 @@
 
 	Погледај слику.
         
-    .. image:: ../../_images/L65S12.png
+    .. image:: ../../_images/L65S12.PNG
         :width: 50px
         :align: center
 

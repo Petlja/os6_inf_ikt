@@ -51,7 +51,7 @@
 
 	На слици је приказан текст.
         
-    .. image:: ../../_images/L64S2.png
+    .. image:: ../../_images/L64S2.PNG
         :width: 700px
         :align: center
 

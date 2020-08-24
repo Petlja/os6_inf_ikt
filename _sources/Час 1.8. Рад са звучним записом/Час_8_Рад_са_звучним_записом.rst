@@ -25,7 +25,7 @@
 
 Звучни запис приказује се као на доњој слици.
 
-.. image:: ../../_images/L68S1.png
+.. image:: ../../_images/L68S1.PNG
     :width: 700px
     :align: center
 

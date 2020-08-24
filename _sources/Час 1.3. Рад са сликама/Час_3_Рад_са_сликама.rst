@@ -59,7 +59,7 @@
 Кликом на ову алатку, испод кутије са алаткама отвара се простор у коме је могуће:
 
 
-.. image:: ../../_images/L63S2.png
+.. image:: ../../_images/L63S2.PNG
     :width: 300px
     :align: center
 
@@ -110,7 +110,7 @@
 2.  облик четкице;
 3.  величина (Size).
 
-.. image:: ../../_images/L63S4.png
+.. image:: ../../_images/L63S4.PNG
     :width: 300px
     :align: center
 
@@ -164,7 +164,7 @@
 2.  заобљене ивице(Rounded edges)
 3.  исцртавање облика из центра правоугаоника/овала (Expand from center)
 
-.. image:: ../../_images/L63S10.png
+.. image:: ../../_images/L63S10.PNG
     :width: 300px
     :align: center
 
