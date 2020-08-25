@@ -67,7 +67,7 @@ lessons:
     description: Предлекција за ИКТ
     activities:
       - type: reading
-        title: 1. Информационо комуникационе технологије
+        title: Информационо комуникационе технологије
         file: 1_ikt.rst
         description: #opciono
         guid: 7eb982a7-12be-4410-9e7b-75737kkk4406
@@ -77,7 +77,7 @@ lessons:
     description: Прва лекција
     activities:
       - type: reading
-        title:  Дигитални уређаји
+        title: Дигитални уређаји
         file: Час_1_Дигитални_уређаји.rst
         description: #opciono
         guid: 7eb982a7-12be-4410-9e7b-7573760f4406
@@ -269,7 +269,7 @@ lessons:
         file: 2_dp.rst
         description: #opciono
         guid: 7ell82a7-12be-4410-9e7b-75737kkk4406
-  - title: Час 2.1. Рачунарске мреже. Употреба ИКТ уређаја на одговоран и сигуран начин у мрежном окружењу
+  - title: 2.1. Рачунарске мреже. Употреба ИКТ уређаја на одговоран и сигуран начин у мрежном окружењу
     folder: Час 2.1. Рачунарске мреже. Употреба ИКТ уређаја у мрежном окружењу
     guid: e12d50e5-8154-42db-bdd7-51fc8713f037
     description: Прва лекција
