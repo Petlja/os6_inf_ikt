@@ -289,7 +289,7 @@ lessons:
     archived-activities: # ne smeta ni ako se ostave drugi atribudi iz aktivnosti, ali se gleda samo guid
       - guid: de4d8ced-7457-4257-a156-250bdb711d65
       - guid: 22752682-f23f-4df7-b590-e22780fda0a3
-  - title: Час 2.2. Интернет сервиси. Правила безбедног рада на Интернету
+  - title: 2.2. Интернет сервиси. Правила безбедног рада на Интернету
     folder: Час 2.2. Интернет сервиси. Правила безбедног рада на Интернету
     guid: 723fc5e0-4b27-4afd-859c-84d3cf8ab783
     description:  Друга лекција
@@ -318,7 +318,7 @@ lessons:
         file: Квиз друге лекције.rst
         description: #opciono
         guid: 313c1996-d6cd-448e-bbcb-c823b03d32cd 
-  - title: Час 2.3. Претраживање Интернета, одабир резултата и преузимање садржаја
+  - title: 2.3. Претраживање Интернета, одабир резултата и преузимање садржаја
     folder: Час 2.3. Претраживање Интернета, одабир резултата и преузимање садржаја
     guid: bbf6640d-c6ef-49e3-8da6-2bcbf7a22edf
     description:  Трећа лекција
@@ -335,7 +335,7 @@ lessons:
         file: Квиз треће лекције.rst
         description: #opciono
         guid: 89fa77d7-2cff-43a3-9d90-4c0aa736b2bc
-  - title: Час 2.4. Заштита приватности личних података и ауторскa права
+  - title: 2.4. Заштита приватности личних података и ауторскa права
     folder: Час 2.4. Заштита приватности личних података и ауторскa права
     guid: 0e28b78b-eb55-446b-9bef-8dcff9a4d55c
     description:  Четврта лекција
