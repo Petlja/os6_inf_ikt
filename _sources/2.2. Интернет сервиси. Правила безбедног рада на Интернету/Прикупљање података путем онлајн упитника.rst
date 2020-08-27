@@ -171,19 +171,19 @@ Microsoft Forms нуди више опција слања и прикупљањ�
 Такође, можете да одаберете опцију да допустите свима да поднесу одговоре или да ограничите одговоре на само особе унутар једне организације.
 
 .. image:: ../../_images/Upitnik25.png
-   :width: 530 px   
+   :width: 480 px   
    :align: left  
 
 .. image:: ../../_images/Upitnik26.png
-   :width: 530 px   
+   :width: 480 px   
    :align: right  
 
 .. image:: ../../_images/Upitnik27.png
-   :width: 530 px   
+   :width: 480 px   
    :align: left  
 
 .. image:: ../../_images/Upitnik28.png
-   :width: 530 px   
+   :width: 480 px   
    :align: right 
 
 
@@ -194,21 +194,20 @@ Microsoft Forms нуди више опција слања и прикупљањ�
 
 
 .. image:: ../../_images/Upitnik29.png
-   :width: 530 px   
+   :width: 480 px   
    :align: left 
 
 .. image:: ../../_images/Upitnik30.png
-   :width: 530 px   
+   :width: 480 px   
    :align: right 
 
 .. image:: ../../_images/Upitnik31.png
-   :width: 530 px   
+   :width: 480 px   
    :align: left 
 
 .. image:: ../../_images/Upitnik32.png
-   :width: 530 px   
+   :width: 480 px   
    :align: right 
-
 
 
 Веома сличан поступак креирања онлајн упитника је и у другим сервисима попут Гугл упитника за које је потребно да имате креиран Гугл налог.
