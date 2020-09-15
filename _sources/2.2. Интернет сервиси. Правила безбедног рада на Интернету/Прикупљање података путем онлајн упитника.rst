@@ -8,8 +8,7 @@
  * Гугл упитници (Google Forms);
  * Мајкрософтови упитници (Microsoft Forms);
  * Survey Monkey;
- * Poll Everywhere;
- * JarP и други.
+ * Poll Everywhere
 
 Уз Microsoft Forms можете да правите анкете, тестове и упитнике, као и да лако видите резултате док пристижу. 
 Приказаћемо поступак креирања онлајн упитника корак по корак у алату **Microsoft Forms** на тему дигиталног насиља.
@@ -127,19 +126,19 @@
 У горњем десном углу можемо одабрати преглед приказа за рачунар или за мобилни телефон. 
 
 .. image:: ../../_images/Upitnik17.png
-   :width: 530 px   
+   :width: 500 px   
    :align: left  
 
 .. image:: ../../_images/Upitnik18.png
-   :width: 530 px   
+   :width: 500 px   
    :align: right 
 
 .. image:: ../../_images/Upitnik19.png
-   :width: 530 px   
+   :width: 500 px   
    :align: left 
 
 .. image:: ../../_images/Upitnik20.png
-   :width: 530 px   
+   :width: 500 px   
    :align: right 
 
 Ако желите да тестирате образац, унесите одговоре на питања у режиму прегледа, а затим кликните на дугме **Проследи (Submit)**.
