@@ -20,15 +20,19 @@
 ~~~~~~~~~
 
 .. mchoice:: L63P4
-    :answer_a: растерска графика
-    :feedback_a: Тачно    
-    :answer_b: векторска графика
-    :feedback_b: Нетачно
-    :answer_c: рачунарска графика
+    :answer_a: 1024 ppt
+    :feedback_a: Нетачно  
+    :answer_b: 800x600
+    :feedback_b: Тачно
+    :answer_c: 100 pt
     :feedback_c: Нетачно
-    :correct: a
+    :answer_d: 300 ppi
+    :feedback_d: Тачно
+    :answer_e: 1280x1024
+    :feedback_e: Тачно
+    :correct: b,d,e
 
-	За коју врсту рачунарске графике важи да је градивни елемент геометријски облици.
+	Означи ипсправно записане резолуције код растерске графике.
 
 Питање 3.
 ~~~~~~~~~
