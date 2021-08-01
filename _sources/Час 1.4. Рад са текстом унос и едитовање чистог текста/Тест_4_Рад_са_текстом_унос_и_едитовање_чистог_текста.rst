@@ -44,9 +44,9 @@
 
 .. mchoice:: L64P5
     :answer_a: чист текст
-    :feedback_a: Нетачно    
+    :feedback_a: Тачно    
     :answer_b: богат текст
-    :feedback_b: Тачно
+    :feedback_b: Нетачно
     :correct: a
 
 	На слици је приказан текст.
