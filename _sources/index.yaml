@@ -95,9 +95,6 @@ lessons:
         file: Тест_1_Дигитални_уређаји.rst
         description: ...
         guid: 9c3e5dfe-3d36-4266-8637-9adc2fc8ba3e
-    archived-activities: # ne smeta ni ako se ostave drugi atribudi iz aktivnosti, ali se gleda samo guid
-      - guid: 26b99f78-ce37-458d-ae7d-b78b267d2a1d
-      - guid: f8f550c6-cf18-48c6-bd08-bcb90100d5bd
   - title: 1.2. Организација и управљање подацима
     folder: Час 1.2. Организација и управљање подацима
     guid: 43a7e557-e0db-4dc0-987b-8097b603e496
@@ -295,9 +292,6 @@ lessons:
         file: Квиз прве лекције.rst
         description: #opciono
         guid: 2d27931b-4dd2-4d1a-9982-1b1b294f71e1
-    archived-activities: # ne smeta ni ako se ostave drugi atribudi iz aktivnosti, ali se gleda samo guid
-      - guid: de4d8ced-7457-4257-a156-250bdb711d65
-      - guid: 22752682-f23f-4df7-b590-e22780fda0a3
   - title: 2.2. Интернет сервиси. Правила безбедног рада на Интернету
     folder: 2.2. Интернет сервиси. Правила безбедног рада на Интернету
     guid: 723fc5e0-4b27-4afd-859c-84d3cf8ab783
@@ -367,9 +361,7 @@ lessons:
         file: Квиз четврте лекције.rst
         description: #opciono
         guid: 1ee22944-c948-4422-a8ec-14de4bb03a62          
-archived-lessons: # ne smeta ni ako se ostave drugi atribudi iz aktivnosti, ali se gleda samo guid
-  - guid: f7fc677c-e497-4f47-9efc-6b3762f38c1c
-  - guid: 224664f5-6cdb-453b-bf71-9634fa504956
+
 
 
 
