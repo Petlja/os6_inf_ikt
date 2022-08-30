@@ -9,7 +9,7 @@
 Кликом на на ``File`` → ``Open`` отвори преузету слику digitalni.png у датом програму. 
 
 .. image:: ../../_images/L63S13.png
-    :width: 500px
+    :width: 780px
     :align: center
 
 Кликни на дугме **Open**.
@@ -17,7 +17,7 @@
 Допиши текст као на слици текст "Дигитални уређаји". 
 
 .. image:: ../../_images/L63S14.PNG
-    :width: 500px
+    :width: 780px
     :align: center
  
 Сачувај слику под именом digitalni uređaji1.jpg. 
