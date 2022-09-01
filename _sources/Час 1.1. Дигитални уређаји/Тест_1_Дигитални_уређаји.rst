@@ -4,86 +4,96 @@
 Питање 1.
 ~~~~~~~~~
 
-.. fillintheblank:: L61P4
+.. quizq::
 
-    Колико битова садржи 1KB?
+    .. parsonsprob:: pitanje1
 
-    Одговор: |blank|
+        Поређај по величини, од навеће количине количине података:
 
-    - :^8192$: Тачно
-      :x: Одговор није тачан.
-
+        -----
+        1TB
+        3GB
+        100KB
+        0.5KB
+        1B
 
 Питање 2.
 ~~~~~~~~~
+.. quizq::
+        
+    .. mchoice:: L61P5
+        :multiple_answers:
+        :answer_a: монитор
+        :feedback_a: Нетачно    
+        :answer_b: графичка картица
+        :feedback_b: Тачно
+        :answer_c: процесор
+        :feedback_c: Тачно
+        :answer_d: тастатура
+        :feedback_d: Нетачно
+        :answer_e: РАМ
+        :feedback_e: Тачно     
+        :correct: b,c,e
 
-.. mchoice:: L61P5
-    :multiple_answers:
-    :answer_a: монитор
-    :feedback_a: Нетачно    
-    :answer_b: графичка картица
-    :feedback_b: Тачно
-    :answer_c: процесор
-    :feedback_c: Тачно
-    :answer_d: тастатура
-    :feedback_d: Нетачно
-    :answer_e: РАМ
-    :feedback_e: Тачно     
-    :correct: b,c,e
-
-    Означи компоненте које се налазе у кућишту рачунара. Изабери све тачне одговоре.
+        Означи компоненте које се налазе у кућишту рачунара. Изабери све тачне одговоре.
 
 Питање 3.
 ~~~~~~~~~
 
-.. mchoice:: L61P6
-    :answer_a: РАМ
-    :feedback_a: Тачно    
-    :answer_b: хард диск
-    :feedback_b: Нетачно    
-    :answer_c: матична плоча
-    :feedback_c: Нетачно
-    :answer_d: USB меморија
-    :feedback_d: Нетачно
-    :answer_e: процесор
-    :feedback_e: Нетачно    
-    :correct: a
+.. quizq::
+        
+    .. mchoice:: L61P6
+        :answer_a: РАМ
+        :feedback_a: Тачно    
+        :answer_b: хард диск
+        :feedback_b: Нетачно    
+        :answer_c: матична плоча
+        :feedback_c: Нетачно
+        :answer_d: USB меморија
+        :feedback_d: Нетачно
+        :answer_e: процесор
+        :feedback_e: Нетачно    
+        :correct: a
 
-    У којем уређају се чувају покренути програми и отворени документи? Означи тачан одоговор.
+        У којем уређају се чувају покренути програми и отворени документи? Означи тачан одоговор.
 
 Питање 4.
 ~~~~~~~~~
+.. quizq::
+        
+    .. mchoice:: L61P8
+        :answer_a: РАМ
+        :feedback_a: Нетачно    
+        :answer_b: хард диск
+        :feedback_b: Тачно    
+        :answer_c: матична плоча
+        :feedback_c: Нетачно
+        :answer_d: графичка картица
+        :feedback_d: Нетачно
+        :answer_e: процесор
+        :feedback_e: Нетачно    
+        :correct: b
 
-.. mchoice:: L61P7
-    :answer_a: РАМ
-    :feedback_a: Тачно    
-    :answer_b: хард диск
-    :feedback_b: Нетачно
-    :answer_c: флеш
-    :feedback_c: Нетачно
-    :answer_d: USB
-    :feedback_d: Нетачно
-    :answer_e: картица
-    :feedback_e: Нетачно    
-    :correct: a
-
-    Како се назива меморија чији се садржај брише након искључивања дигиталног уређаја?
-
+        У ком уређају се чувају подаци и програми и када је дигитални уређај искључен?
 
 Питање 5.
 ~~~~~~~~~
+.. quizq::
+        
+    .. mchoice:: L61P7
+        :answer_a: РАМ
+        :feedback_a: Тачно    
+        :answer_b: хард диск
+        :feedback_b: Нетачно
+        :answer_c: флеш
+        :feedback_c: Нетачно
+        :answer_d: USB
+        :feedback_d: Нетачно
+        :answer_e: картица
+        :feedback_e: Нетачно    
+        :correct: a
 
-.. mchoice:: L61P8
-    :answer_a: РАМ
-    :feedback_a: Нетачно    
-    :answer_b: хард диск
-    :feedback_b: Тачно    
-    :answer_c: матична плоча
-    :feedback_c: Нетачно
-    :answer_d: графичка картица
-    :feedback_d: Нетачно
-    :answer_e: процесор
-    :feedback_e: Нетачно    
-    :correct: b
+        Како се назива меморија чији се садржај брише након искључивања дигиталног уређаја?
 
-    У ком уређају се чувају подаци и програми и када је дигитални уређај искључен?
+
+

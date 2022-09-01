@@ -4,80 +4,87 @@
 Питање 1.
 ~~~~~~~~~
 
-.. mchoice:: L63P3
-    :answer_a: растерска графика
-    :feedback_a: Тачно    
-    :answer_b: векторска графика
-    :feedback_b: Нетачно
-    :answer_c: рачунарска графика
-    :feedback_c: Нетачно
-    :correct: a
+.. quizq::
 
-	За коју врсту рачунарске графике важи да када се слика увећа постаје мутна, тачније увећањем на било коју величину се губи се квалитет слике.
+    .. mchoice:: L63P3
+        :answer_a: растерска графика
+        :feedback_a: Тачно    
+        :answer_b: векторска графика
+        :feedback_b: Нетачно
+        :answer_c: рачунарска графика
+        :feedback_c: Нетачно
+        :correct: a
+
+        За коју врсту рачунарске графике важи да када се слика увећа постаје мутна, тачније увећањем на било коју величину се губи се квалитет слике.
 
 
 Питање 2.
 ~~~~~~~~~
+.. quizq::
+        
+    .. mchoice:: L63P4
+        :answer_a: 1024 ppt
+        :feedback_a: Нетачно  
+        :answer_b: 800x600
+        :feedback_b: Тачно
+        :answer_c: 100 pt
+        :feedback_c: Нетачно
+        :answer_d: 300 ppi
+        :feedback_d: Тачно
+        :answer_e: 1280x1024
+        :feedback_e: Тачно
+        :correct: b,d,e
 
-.. mchoice:: L63P4
-    :answer_a: 1024 ppt
-    :feedback_a: Нетачно  
-    :answer_b: 800x600
-    :feedback_b: Тачно
-    :answer_c: 100 pt
-    :feedback_c: Нетачно
-    :answer_d: 300 ppi
-    :feedback_d: Тачно
-    :answer_e: 1280x1024
-    :feedback_e: Тачно
-    :correct: b,d,e
-
-	Означи исправно записане резолуције код растерске графике.
+        Означи исправно записане резолуције код растерске графике.
 
 Питање 3.
 ~~~~~~~~~
+.. quizq::
+        
+    .. mchoice:: L63P5
+        :answer_a: алатка кантица
+        :feedback_a: Тачно    
+        :answer_b: алатка гумица
+        :feedback_b: Нетачно
+        :answer_c: алатка оловка
+        :feedback_c: Нетачно
+        :answer_d: алатка четкица
+        :feedback_d: Нетачно
+        :correct: a
 
-.. mchoice:: L63P5
-    :answer_a: алатка кантица
-    :feedback_a: Тачно    
-    :answer_b: алатка гумица
-    :feedback_b: Нетачно
-    :answer_c: алатка оловка
-    :feedback_c: Нетачно
-    :answer_d: алатка четкица
-    :feedback_d: Нетачно
-    :correct: a
-
-	Која алатка се користи за бојење облика? Означи тачан одговор.
+        Која алатка се користи за бојење облика? Означи тачан одговор.
 
 Питање 4.
 ~~~~~~~~~
 
-.. mchoice:: L63P6
-    :answer_a: алатка кантица
-    :feedback_a: Нетачно    
-    :answer_b: алатка гумица
-    :feedback_b: Tачно
-    :answer_c: алатка оловка
-    :feedback_c: Нетачно
-    :answer_d: алатка четкица
-    :feedback_d: Нетачно
-    :correct: b
+.. quizq::
 
-	Која алатка се користи за брисање нацртаних облика? Означи тачан одговор.
+    .. mchoice:: L63P6
+        :answer_a: алатка кантица
+        :feedback_a: Нетачно    
+        :answer_b: алатка гумица
+        :feedback_b: Tачно
+        :answer_c: алатка оловка
+        :feedback_c: Нетачно
+        :answer_d: алатка четкица
+        :feedback_d: Нетачно
+        :correct: b
+
+        Која алатка се користи за брисање нацртаних облика? Означи тачан одговор.
 
 Питање 5.
 ~~~~~~~~~
+.. quizq::
+                
+    .. mchoice:: L63P7
+        :answer_a: алатка кантица
+        :feedback_a: Нетачно    
+        :answer_b: алатка гумица
+        :feedback_b: Нетачно
+        :answer_c: алатка оловка
+        :feedback_c: Тачно
+        :answer_d: алатка четкица
+        :feedback_d: Тачно
+        :correct: c,d
 
-.. mchoice:: L63P7
-    :answer_a: алатка кантица
-    :feedback_a: Нетачно    
-    :answer_b: алатка гумица
-    :feedback_b: Нетачно
-    :answer_c: алатка оловка
-    :feedback_c: Тачно
-    :answer_d: алатка четкица
-    :feedback_d: Тачно
-    :correct: c,d
-
-	Означи алатке које могу да се користе за исцртавање праве линије.
+        Означи алатке које могу да се користе за исцртавање праве линије.

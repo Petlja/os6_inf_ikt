@@ -1,64 +1,76 @@
 Квиз. Рад са текстом - форматирање табеле и рад у облаку
 ========================================================
 
-Питање 1.
-~~~~~~~~~
-
-.. mchoice:: L67P1
-    :answer_a: да
-    :feedback_a: Нетачно    
-    :answer_b: не
-    :feedback_b: Тачно
-    :correct: b
-
-	Да ли све колоне у табели морају имати исту ширину? Означи тачан одговор.
-
-
-Питање 2.
-~~~~~~~~~
-
-.. mchoice:: L67P2
-    :answer_a: Home
-    :feedback_a: Нетачно    
-    :answer_b: Design
-    :feedback_c: Нетачно
-    :answer_c: Layout
-    :feedback_b: Тачно
-    :correct: c
-
-	На којој картици можемо поставити висину означених редова? Означи тачан одговор.
-
-Питање 3.
-~~~~~~~~~
-
-.. mchoice:: L67P3
-    :answer_a: да
-    :feedback_a: Тачно    
-    :answer_b: не
-    :feedback_b: Нетачно
-    :correct: a
-
-	Да ли је могуће креирати табеле и у апликацији Google Docs? Означи тачан одговор.
-
 Питање 4.
 ~~~~~~~~~
 
-.. dragndrop:: dragndrop_sample_question1
-    :feedback: Нетачно.
-    :match_1: Split Cells ||| дељење ћелије табеле на више ћелија
-    :match_2: Merge Cells ||| спајање више ћелија у једну ћелију
+..  quizq::
+
+    .. dragndrop:: dragndrop_sample_question1
+        :feedback: Нетачно.
+        :match_1: Split Cells ||| дељење ћелије табеле на више ћелија
+        :match_2: Merge Cells ||| спајање више ћелија у једну ћелију
+        
+        Повежи опције за рад са табелама са одговарајућим објашњењем.
+
+..  quizq::
     
-    Повежи опције за рад са табелама са одговарајућим објашњењем.
+    .. figure:: ../../_images/quiz_table.png
+        :align: center
 
-Питање 5.
-~~~~~~~~~
+    .. mchoice:: L67P1x
+        :answer_a: I
+        :feedback_a: Нетачно    
+        :answer_b: II
+        :feedback_b: Нетачно  
+        :answer_c: III
+        :feedback_c: Тачно
+        :correct: c
 
-.. mchoice:: L67P5
-    :answer_a: да
-    :feedback_a: Неачно    
-    :answer_b: не
-    :feedback_b: Тачно
-    :correct: b
+	    Која алатка је употребљена да би бројеви уписани у колони и у средини били на позицији као у табели изнад?
 
-	Да ли је могуће урадити дељење ћелије табеле у апликацији Google Docs? Означи тачан одговор.
+        .. figure:: ../../_images/quiz_table_align.png
+            :align: center
 
+
+..  quizq::
+    
+    .. figure:: ../../_images/quiz_cell.png
+        :align: center
+
+    .. mchoice:: L67P1x2
+        :answer_a: I
+        :feedback_a: Нетачно    
+        :answer_b: II
+        :feedback_b: Нетачно  
+        :answer_c: III
+        :feedback_c: Нетачно  
+        :answer_d: IV
+        :feedback_d: Тачно
+        :correct: d
+
+	    Која алатка је употребљена да би бројеви уписани у колони и у средини били на позицији као у табели изнад?
+
+        .. figure:: ../../_images/quiz_cell2.png
+            :align: center
+
+..  quizq::
+    
+    .. figure:: ../../_images/quiz_cell3.png
+        :align: center
+
+    .. mchoice:: L67P1x3
+        :answer_a: I
+        :feedback_a: Нетачно    
+        :answer_b: II
+        :feedback_b: Тачно
+        :answer_c: III
+        :feedback_c: Нетачно  
+        :answer_d: IV
+        :feedback_d: Нетачно  
+        :correct: b
+
+	    На слици је приказана једна ћелија табеле. Која алатка је употребљена да би ћелија била обојена на приказани начин?
+
+        .. figure:: ../../_images/quiz_cell4.png
+            :align: center

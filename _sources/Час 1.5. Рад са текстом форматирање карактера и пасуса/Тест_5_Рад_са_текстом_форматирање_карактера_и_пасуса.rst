@@ -3,86 +3,97 @@
 
 Питање 1.
 ~~~~~~~~~
+.. quizq::
+        
+    .. mchoice:: L65P1
+        :answer_a: Paragraph
+        :feedback_a: Нетачно    
+        :answer_b: Font
+        :feedback_b: Тачно
+        :answer_c: Home
+        :feedback_c: Нетачно
+        :answer_d: File
+        :feedback_d: Нетачно
+        :correct: b
 
-.. mchoice:: L65P1
-    :answer_a: Paragraph
-    :feedback_a: Нетачно    
-    :answer_b: Font
-    :feedback_b: Тачно
-    :answer_c: Home
-    :feedback_c: Нетачно
-    :answer_d: File
-    :feedback_d: Нетачно
-    :correct: b
-
-	Која опција се користи за форматирање карактера? Означи тачан одговор.
+        Која група алатки се користи за форматирање карактера? Означи тачан одговор.
 
 Питање 2.
 ~~~~~~~~~
 
-.. fillintheblank:: L65P2
+.. quizq::
+        
+    .. mchoice:: L65Px
+        :answer_a: Shift
+        :feedback_a: Нетачно    
+        :answer_b: Tab
+        :feedback_b: Нетачно
+        :answer_c: Ctrl
+        :feedback_c: Нетачно
+        :answer_d: Enter
+        :feedback_d: Тачно
+        :correct: d
 
-    Како се назива мали део текста, одељак чији изглед можете да мењате? Унеси решење малим словима ћириличним писмом.
+        При уносу текста, желиш да завршиш један пасус и отпочнеш писање другог пасуса. То чиниш притиском на тастер:
 
-    Одговор: |blank|
-
-    - :^пасус$: Тачно
-      :x: Одговор није тачан.
 
 Питање 3.
 ~~~~~~~~~
-
-.. mchoice:: L65P3
-    :answer_a: поравнавање текста (лево, средина, десно, обострано)
-    :feedback_a: Тачно    
-    :answer_b: бојење пасуса
-    :feedback_b: Нетачно
-    :answer_c: приказ невидљивих карактера
-    :feedback_c: Нетачно
-    :answer_d: подешавање прореда
-    :feedback_d: Нетачно
-    :answer_e: увлачење првог реда
-    :feedback_e: Нетачно
-    :correct: a
-
-	Погледај слику.
+.. quizq::
         
-    .. image:: ../../_images/L65S11.PNG
-        :width: 100px
-        :align: center
+    .. mchoice:: L65P3
+        :answer_a: поравнавање текста (лево, средина, десно, обострано)
+        :feedback_a: Тачно    
+        :answer_b: бојење пасуса
+        :feedback_b: Нетачно
+        :answer_c: приказ невидљивих карактера
+        :feedback_c: Нетачно
+        :answer_d: подешавање прореда
+        :feedback_d: Нетачно
+        :answer_e: увлачење првог реда
+        :feedback_e: Нетачно
+        :correct: a
 
-    Која је врста подешавања је приказана на горњој слици? Означи тачан одговор.
+        Погледај слику.
+            
+        .. image:: ../../_images/L65S11.PNG
+            :width: 100px
+            :align: center
+
+        Која врста подешавања је приказана на горњој слици? Означи тачан одговор.
 
 Питање 4.
 ~~~~~~~~~
+.. quizq::
+        
+    .. mchoice:: L65P4
+        :answer_a: да
+        :feedback_a: Нетачно    
+        :answer_b: не
+        :feedback_b: Тачно
+        :correct: a
 
-.. mchoice:: L65P4
-    :answer_a: да
-    :feedback_a: Нетачно    
-    :answer_b: не
-    :feedback_b: Тачно
-    :correct: b
-
-	Ако су приказани на екрану да ли ће невидљиви карактери бити одштампани приликом штампања? Означи тачан одговор.
+        Текстуални документ у облаку се може едитовати и форматирати на врло сличан начин као и коришћењем програма Word.
 
 Питање 5.
 ~~~~~~~~~
-
-.. mchoice:: L65P5
-    :answer_a: размак
-    :feedback_a: Нетачно    
-    :answer_b: приказ невидљивих карактера
-    :feedback_b: Нетачно
-    :answer_c: табулатор (увлачење реда/пасуса/текста)
-    :feedback_c: Тачно
-    :answer_d: прелазак у нови ред (нови пасус)
-    :feedback_d: Нетачно
-    :correct: c
-
-	Погледај слику.
+.. quizq::
         
-    .. image:: ../../_images/L65S12.PNG
-        :width: 50px
-        :align: center
+    .. mchoice:: L65P5
+        :answer_a: протиснеш тастер Enter
+        :feedback_a: Нетачно    
+        :answer_b: . наставиш да куцаш, прелазак у наредни ред је аутоматски
+        :feedback_b: Тачно
+        :answer_c: притиснеш тастер Shift
+        :feedback_c: Нетачно
+        :answer_d: притиснеш тастер Ctrl
+        :feedback_d: Нетачно
+        :correct: b
 
-    Који невидљив карактер је приказана на горњој слици? Означи тачан одговор.
+        Погледај слику.
+            
+        .. image:: ../../_images/L65S12.PNG
+            :width: 50px
+            :align: center
+
+        Прекуцаваш неки текст и приближаваш се крају реда. Да би прешао у следећи ред потребно је да:

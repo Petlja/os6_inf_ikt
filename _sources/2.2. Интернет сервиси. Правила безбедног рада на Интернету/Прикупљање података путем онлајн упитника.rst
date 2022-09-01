@@ -30,108 +30,125 @@
 
 Изаберите ставку **Нови образац (New Form)** да бисте почели да креирате образац.
 
-.. image:: ../../_images/Upitnik01.png
-   :width: 600 px   
+.. figure:: ../../_images/Upitnik01.png
+   :width: 780 px   
    :align: center 
+   :class: screenshot-shadow
 
 
-.. image:: ../../_images/Upitnik02.png
-   :width: 600 px   
+.. figure:: ../../_images/Upitnik02.png
+   :width: 780 px   
    :align: center 
+   :class: screenshot-shadow
 
 Унесите назив за образац. Можете да унесете и опционални поднаслов, односно кратак опис упитника.
 Напомена: Имена образаца могу да садрже до 90 знакова, а поднаслови до 1000 знакова.
 
-.. image:: ../../_images/Upitnik03.png
-   :width: 600 px   
+.. figure:: ../../_images/Upitnik03.png
+   :width: 780 px   
    :align: center 
+   :class: screenshot-shadow
 
 
-.. image:: ../../_images/Upitnik04.png
-   :width: 600 px   
-   :align: center  
+.. figure:: ../../_images/Upitnik04.png
+   :width: 780 px   
+   :align: center 
+   :class: screenshot-shadow 
 
 Изаберите ставку  **Додај питање (Add new)** са претходне слике да бисте додали ново питање у образац упитника. 
 Одаберите одговарајући тип питања из понуђених: вишеструки избор, унос текстуалног одговора, скала процене или датум. 
 
-.. image:: ../../_images/Upitnik05.png
-   :width: 600 px   
-   :align: center  
+.. figure:: ../../_images/Upitnik05.png
+   :width: 780 px   
+   :align: center 
+   :class: screenshot-shadow 
 
 Такође, можете да кликнете на дугме за још типова питања када се отвара падајућа листа за више типова питања Microsoft упитницима да бисте изабрали типове питања попут рангирање, повезивање, отпремање датотека итд. 
 Изаберите одељак да бисте организовали одељке за питања. 
 
-.. image:: ../../_images/Upitnik05a.png
-   :width: 600 px   
-   :align: center  
+.. figure:: ../../_images/Upitnik05a.png
+   :width: 780 px   
+   :align: center 
+   :class: screenshot-shadow 
 
 За питања са више одговора унесите текст који желите да прикажете за питање, као и све изборе.
 
-.. image:: ../../_images/Upitnik06.png
-   :width: 600 px   
-   :align: center  
-
-.. image:: ../../_images/Upitnik07.png
-   :width: 600 px   
+.. figure:: ../../_images/Upitnik06.png
+   :width: 780 px   
    :align: center 
+   :class: screenshot-shadow 
+
+.. figure:: ../../_images/Upitnik07.png
+   :width: 780 px   
+   :align: center 
+   :class: screenshot-shadow
 
 Уколико се захтева да се неко питање обавезно мора пупунити, онда је неопходно означити да је то питање обавезно тако што ће се потврдити опција **Обавезно (Required)**.
 
-.. image:: ../../_images/Upitnik07a.png
-   :width: 600 px   
+.. figure:: ../../_images/Upitnik07a.png
+   :width: 780 px   
    :align: center 
+   :class: screenshot-shadow
 
 Да бисте насумично одабрали редослед опција приказаних за кориснике обрасца, кликните на дугме **„Још опција“**, а затим изаберите ставку **„случајни избор“ (shuffle options)**.
 
-.. image:: ../../_images/Upitnik08.png
-   :width: 600 px   
+.. figure:: ../../_images/Upitnik08.png
+   :width: 780 px   
    :align: center 
+   :class: screenshot-shadow
 
 Желите да додате више избора? Кликните на дугме **Додај опцију (Add Option)** да бисте додали више избора од подразумевана два. 
 
-.. image:: ../../_images/Upitnik09.png
-   :width: 600 px   
+.. figure:: ../../_images/Upitnik09.png
+   :width: 780 px   
    :align: center 
+   :class: screenshot-shadow
 
 Кликните на дугме **Додај опцију „Остало“ (Add "Other" option)** да бисте додали опцију одговора која приказује текст „Остало“. 
 
-.. image:: ../../_images/Upitnik10.png
-   :width: 600 px   
+.. figure:: ../../_images/Upitnik10.png
+   :width: 780 px   
    :align: center 
+   :class: screenshot-shadow
 
 Да бисте уклонили одговор, кликните на дугме са корпом за отпатке поред њега. 
 
-.. image:: ../../_images/Upitnik11.png
-   :width: 600 px   
+.. figure:: ../../_images/Upitnik11.png
+   :width: 780 px   
    :align: center 
+   :class: screenshot-shadow
 
-.. image:: ../../_images/Upitnik12.png
-   :width: 600 px   
+.. figure:: ../../_images/Upitnik12.png
+   :width: 780 px   
    :align: center 
+   :class: screenshot-shadow
 
 За текстуална питања треба одабрати другу опцију у листи типова питања.
 
-.. image:: ../../_images/Upitnik13.png
-   :width: 600 px   
+.. figure:: ../../_images/Upitnik13.png
+   :width: 780 px   
    :align: center 
+   :class: screenshot-shadow
 
 Текстуална питања вам омогућавају и да унесете краћи или дужи текстуални одговор што се регулише укључивањем опције **"Дугачак одговор" (Long answer)** ако желите да се у обрасцу приказује већи оквир за текст.
 
-.. image:: ../../_images/Upitnik14.png
-   :width: 600 px   
+.. figure:: ../../_images/Upitnik14.png
+   :width: 780 px   
    :align: center 
+   :class: screenshot-shadow
 
 За тип питања када треба урадити неку скалу процене потребно је одабрати трећу опцију - **Rating**.
 
-.. image:: ../../_images/Upitnik15.png
-   :width: 600 px   
-   :align: center  
+.. figure:: ../../_images/Upitnik15.png
+   :width: 780 px   
+   :align: center 
+   :class: screenshot-shadow 
 
 Из падајуће листе можемо одабрати да ли ће се процена вршити **нумерички (бројчано)** или симболима **звездица (симболично)**. 
 Такође, из падајуће листе **"Нивои" (Levels)** можемо одабрати број нивоа за процену. Број нивоа је подразумевано постављен на пет.
 
-.. image:: ../../_images/Upitnik16.png
-   :width: 600 px   
+.. figure:: ../../_images/Upitnik16.png
+   :width: 780 px   
    :align: center
 
 Изаберите ставку **Преглед (Preview)** у врху прозора дизајна да бисте видели како ће образац изгледати на рачунару. 
@@ -146,28 +163,31 @@
 Ако желите да тестирате образац, унесите одговоре на питања у режиму прегледа, а затим кликните на дугме **Проследи (Submit)**.
 Уколико желите да промените тему упитника то можете да учините тако што ћете да кликните на **Тему (Theme)** у горњем десном углу прозора за дизајн и изаберите жељене боје или позадине.
 
-.. image:: ../../_images/Upitnik21.png
-   :width: 600 px   
+.. figure:: ../../_images/Upitnik21.png
+   :width: 780 px   
    :align: center 
+   :class: screenshot-shadow
 
 Ако бисте радије желели неку другу слику у позадини, коју имате на вашем рачунару, кликните на икону **Дугме "Отпреми слику"** у галерији Microsoft Forms и одаберите одговарајућу. 
 
-.. image:: ../../_images/Upitnik22.png
-   :width: 600 px   
+.. figure:: ../../_images/Upitnik22.png
+   :width: 780 px   
    :align: center 
+   :class: screenshot-shadow
 
 Након што одаберете одговарајућу слику, добијате одмах изглед упитника са одговарајућом сликом.
 
-.. image:: ../../_images/Upitnik23.png
-   :width: 600 px   
+.. figure:: ../../_images/Upitnik23.png
+   :width: 780 px   
    :align: center
 
 Microsoft Forms нуди више опција слања и прикупљања одговора. Можете да копирате линк до обрасца или да везу коју сте креирали налепите и поделите, можете да пошаљете QR-кôд упитника, да га уградите директно у блог или веб-страницу или пошаљете линк упитника имејлом. 
 Кликом на линк или скенирање QR кода, особе могу да присупе упитнику и да прослеђују одговоре са свог веб-прегледача. 
 
-.. image:: ../../_images/Upitnik24.png
-   :width: 600 px   
+.. figure:: ../../_images/Upitnik24.png
+   :width: 780 px   
    :align: center 
+   :class: screenshot-shadow
 
 Такође, можете да одаберете опцију да допустите свима да поднесу одговоре или да ограничите одговоре на само особе унутар једне организације.
 
