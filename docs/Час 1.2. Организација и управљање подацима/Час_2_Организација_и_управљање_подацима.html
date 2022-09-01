@@ -6,6 +6,7 @@
     <title>Организација и управљање подацима</title>
     <link rel="stylesheet" type="text/css" href="../_static/activecode.css" />
     <link rel="stylesheet" type="text/css" href="../_static/codemirror.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/qchoice.css" />
     <link rel="stylesheet" type="text/css" href="../_static/clickable.css" />
     <link rel="stylesheet" type="text/css" href="../_static/pytutor.css" />
     <link rel="stylesheet" type="text/css" href="../_static/modal-basic.css" />
@@ -24,13 +25,9 @@
     <link rel="stylesheet" type="text/css" href="../_static/webglinteractive.css" />
     <link rel="stylesheet" type="text/css" href="../_static/karel.css" />
     <link rel="stylesheet" type="text/css" href="../_static/notes.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/simanim.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/pycode.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/p5js.css" />
     <link rel="stylesheet" type="text/css" href="../_static/gallery.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/dbDirective.css" />
     <link rel="stylesheet" type="text/css" href="../_static/associations.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/regex-check.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/editor.css" />
     <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../_static/user-highlights.css" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" type="text/css" />
@@ -112,6 +109,7 @@
     <script type="text/javascript" src="../_static/karelCorner.js"></script>
     <script type="text/javascript" src="../_static/karelRobot.js"></script>
     <script type="text/javascript" src="../_static/karelWorld.js"></script>
+    <script type="text/javascript" src="../_static/karelChat.js"></script>
     <script type="text/javascript" src="../_static/karelRobotDrawer.js"></script>
     <script type="text/javascript" src="../_static/karelUI.js"></script>
     <script type="text/javascript" src="../_static/karel.js"></script>
@@ -119,46 +117,14 @@
     <script type="text/javascript" src="../_static/karel-i18n.sr-Cyrl.js"></script>
     <script type="text/javascript" src="../_static/notes.js"></script>
     <script type="text/javascript" src="../_static/pygamelib-init.js"></script>
-    <script type="text/javascript" src="../_static/blockly/blockly_compressed.js"></script>
-    <script type="text/javascript" src="../_static/blockly/blocks_compressed.js"></script>
-    <script type="text/javascript" src="../_static/blockly/python_compressed.js"></script>
-    <script type="text/javascript" src="../_static/blockly/msg-sr.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/utilities.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/python_errors.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/ast_node_visitor.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/abstract_interpreter.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/pytifa.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/abstract_interpreter_definitions.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/python_to_blockly.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/imported.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/class.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/comment.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/comprehensions.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/dict.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/if.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/io.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/lists.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/sets.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/loops.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/parking.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/tuple.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/turtles.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/text.js"></script>
-    <script type="text/javascript" src="../_static/blockpy-modal.js"></script>
-    <script type="text/javascript" src="../_static/simanim.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/pyodide/v0.16.1/full/pyodide.js"></script>
-    <script type="text/javascript" src="../_static/pycode.js"></script>
-    <script type="text/javascript" src="//toolness.github.io/p5.js-widget/p5-widget.js"></script>
-    <script type="text/javascript" src="../_static/p5js.js"></script>
     <script type="text/javascript" src="../_static/gallery.js"></script>
-    <script type="text/javascript" src="../_static/dbDirective.js"></script>
-    <script type="text/javascript" src="../_static/sql.js"></script>
     <script type="text/javascript" src="../_static/associations.js"></script>
     <script type="text/javascript" src="../_static/associations-i18n.en.js"></script>
     <script type="text/javascript" src="../_static/associations-i18n.sr-Cyrl.js"></script>
-    <script type="text/javascript" src="../_static/regex-check.js"></script>
-    <script type="text/javascript" src="../_static/regex-check-i18n.en.js"></script>
-    <script type="text/javascript" src="../_static/regex-check-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/editor.js"></script>
+    <script type="text/javascript" src="../_static/jszip.js"></script>
+    <script type="text/javascript" src="../_static/editor-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/editor-i18n.sr-Cyrl.js"></script>
     <script type="text/javascript" src="../_static/translations.js"></script>
     <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <script type="text/javascript" src="../_static/jquery-ui-1.10.3.custom.min.js"></script>
@@ -418,9 +384,9 @@
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
                 <div class="courseContentsSubSection d-none"><a href=../2.2.%20Интернет%20сервиси.%20Правила%20безбедног%20рада%20на%20Интернету/Интернет%20сервиси.html><div class="studioLecture" id=activity-Интернет%20сервиси><i class="fas fa-file-alt activity-icon"></i>Интернет сервиси</div></a>
-                <a href=../2.2.%20Интернет%20сервиси.%20Правила%20безбедног%20рада%20на%20Интернету/Прикупљање%20података%20путем%20онлајн%20упитника.html><div class="studioLecture" id=activity-Прикупљање%20података%20путем%20онлајн%20упитника><i class="fas fa-file-alt activity-icon"></i>Прикупљање података путем онлајн упитника</div></a>
                 <a href=../2.2.%20Интернет%20сервиси.%20Правила%20безбедног%20рада%20на%20Интернету/Правила%20безбедног%20рада%20на%20Интернету.html><div class="studioLecture" id=activity-Правила%20безбедног%20рада%20на%20Интернету><i class="fas fa-file-alt activity-icon"></i>Правила безбедног рада на Интернету</div></a>
                 <a href=../2.2.%20Интернет%20сервиси.%20Правила%20безбедног%20рада%20на%20Интернету/Квиз%20друге%20лекције.html><div class="studioLecture" id=activity-Квиз%20друге%20лекције><i class="far fa-question-circle activity-icon"></i>Квиз друге лекције</div></a>
+                <a href=../2.2.%20Интернет%20сервиси.%20Правила%20безбедног%20рада%20на%20Интернету/Прикупљање%20података%20путем%20онлајн%20упитника.html><div class="studioLecture" id=activity-Прикупљање%20података%20путем%20онлајн%20упитника><i class="fas fa-file-alt activity-icon"></i>Прикупљање података путем онлајн упитника</div></a>
                 </div>
             </div>
                 
@@ -463,9 +429,11 @@
   <div class="section" id="id1">
 <h1>Организација и управљање подацима<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
 
-    <div class="course-box course-box-info">
+    <div class="note-wrapper infonote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/infonote-img.svg" class="note-image infonote-image" /> 
         <div class="course-content">
-            <p>
+            
 <dl class="simple">
 <dt>На овом часу ћеш научити:</dt><dd><ul class="simple">
 <li><p>нешто више о чувању, организовању и проналажењу  података у рачунару;</p></li>
@@ -475,13 +443,16 @@
 </dd>
 </dl>
 
-    </p></div></div>
+    </div></div>
 <p>У петом разреду смо се бавили организацијом података. Тада смо истакли да је веома важно да подаци (слике, текст, видео и звучни записи, презентације) буду прегледно распоређени и груписани, тако да лако можемо да нађемо датотеку која нам је потребна.</p>
 <p>Подсетимо се онога што смо радили у петом разреду.</p>
-<div class="section" id="id2">
-<h2>Питање:<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
 
-        <div class="course-box course-box-question course-content">
+        <div class="course-box course-box-question course-content petlja-problem-box fitb-question">
+        <div class="image-background"></div>
+        <div class="petlja-problem-box-icon-holder"> </div>
+        <img src="../_static/img/fitb-img.svg" class="petlja-problem-image  fitb-image" /> 
+        <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image-quiz  qchoice-image" /> 
+        
         <div data-component="fillintheblank" id="L62P1">
             <p>Како се назива место на коме групишемо и чувамо сличне датотеке, захваљујући коме су нам подаци уредно разврстани. Одговор унеси малим словима, ћириличким писмом.</p>
 <p>Одговор: <input type="text"></p>
@@ -492,13 +463,14 @@
 
         </div>
         </div>
-            </div>
-<div class="section" id="id3">
-<h2>Питање:<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
-
-            <div class="course-box course-box-question course-content">
+            
+            <div class="course-box course-box-question course-content petlja-problem-box choice-question">
+                <div class="image-background"></div>
+                <div class="petlja-problem-box-icon-holder"> </div>
+                <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image  qchoice-image" />
+                <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image-quiz  qchoice-image" /> 
             <ul data-component="multiplechoice" data-multipleanswers="false"  id="L62P2">
-            <p>Q-48: На дигиталном уређају имаш сачувану датотеку MojaSkola.txt. Шта представља .txt? Означи тачан одоговор.</p>
+            <p>Q-49: На дигиталном уређају имаш сачувану датотеку MojaSkola.txt. Шта представља .txt? Означи тачан одоговор.</p>
 
             <li data-component="answer"  id="L62P2_opt_a">име</li><li data-component="feedback" id="L62P2_opt_a">Нетачно</li>
             
@@ -511,13 +483,14 @@
 
             </ul>
             </div>
-            </div>
-<div class="section" id="id4">
-<h2>Питање:<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
-
-            <div class="course-box course-box-question course-content">
+            
+            <div class="course-box course-box-question course-content petlja-problem-box choice-question">
+                <div class="image-background"></div>
+                <div class="petlja-problem-box-icon-holder"> </div>
+                <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image  qchoice-image" />
+                <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image-quiz  qchoice-image" /> 
             <ul data-component="multiplechoice" data-multipleanswers="false"  id="L62P3">
-            <p>Q-49: На дигиталном уређају имаш сачувану датотеку MojaSkola.jpg. MojaSkola представља име, а .jpg представља екстензију. Да ли ова екстензија указује на то да се ради о звучној датотеци? Означи тачан одоговор.</p>
+            <p>Q-50: На дигиталном уређају имаш сачувану датотеку MojaSkola.jpg. MojaSkola представља име, а .jpg представља екстензију. Да ли ова екстензија указује на то да се ради о звучној датотеци? Означи тачан одоговор.</p>
 
             <li data-component="answer"  id="L62P3_opt_a">да</li><li data-component="feedback" id="L62P3_opt_a">Нетачно</li>
             
@@ -526,15 +499,16 @@
 
             </ul>
             </div>
-            <p>Све датотеке чувамо тако што ћемо их сместити у одговарајуће фасцикле (називају се још и фолдери или директоријуми).</p>
-<p>Податке чувамо на тврдим дисковима, меморијским картицама, USB меморијама или на интернету – у облаку података.
-За организацију података на дигиталном уређају најчешће користимо програме који су део оперативног система. Један од таквих програма је програм Explorer.</p>
-<a class="reference internal image-reference" href="../_images/L61S9.PNG"><img alt="../_images/L61S9.PNG" class="align-center" src="../_images/L61S9.PNG" style="width: 700px;" /></a>
-<p><em>Подсетник</em>: Опис поступка за приказ прегледа карактеристика оперативног система можете погледати на следећем видеу:</p>
+            <p>Све датотеке чувамо тако што ћемо их сместити у одговарајуће <strong>фасцикле</strong> (називају се још и фолдери или директоријуми).</p>
+<p>Податке чувамо на хард дисковима, меморијским картицама, USB меморијама или на интернету – у облаку података. За организацију података на дигиталном уређају најчешће користимо програме који су део оперативног система. Један од таквих програма је програм <strong>Explorer</strong>.</p>
+<div class="figure align-center">
+<a class="screenshot-shadow reference internal image-reference" href="../_images/L61S9.PNG"><img alt="../_images/L61S9.PNG" class="screenshot-shadow" src="../_images/L61S9.PNG" style="width: 780px;" /></a>
+</div>
+<p>Опис поступка за приказ прегледа карактеристика оперативног система можете погледати на следећем видеу:</p>
 
     <div  id="wuJ0vXyhERo" class="ytvideo"  style="text-align: center; margin: 15px; cursor:pointer;">
         <div style="background-image: url('https://img.youtube.com/vi/wuJ0vXyhERo/mqdefault.jpg'); background-repeat: no-repeat;background-position: center; height: 210px; width: 310px; margin: 0 auto; border: 1px solid #20c997">
-            <img src="/_static/images/play_button.svg" style="margin-top: 78px;" /> 
+            <img src="../_static/images/play_button.svg" style="margin-top: 78px;" /> 
         </div>
       
 
@@ -545,30 +519,39 @@
     </div>
     
     
-    <div class="topic">
-<p class="topic-title">Савет</p>
-<p>☛ За податке који су нам веома важни, треба да направимо резервне копије (енгл. <em>backup</em> - бекап), тако што их са рачунара копирамо на USB меморију, преносиви тврди диск и/или у облак података. Тако ћемо их сачувати у случају да дође до непредвиђеног отказивања тврдог диска на рачунару.</p>
-</div>
-<div class="section" id="id5">
-<h3>Копирање и премештање датотека и фасцикли<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+    
+    <div class="note-wrapper suggestionnote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/suggestionnote-img.svg" class="note-image suggestionnote-image" /> 
+        <div class="course-content">
+            
+<p>За податке који су нам веома важни, треба да направимо резервне копије (енгл. <em>backup</em> - бекап), тако што их са рачунара копирамо на USB меморију, преносиви хард диск и/или у облак података. Тако ћемо их сачувати у случају да дође до непредвиђеног отказивања тврдог диска на рачунару.</p>
+
+    </div></div>
+<div class="section" id="id2">
+<h2>Копирање и премештање датотека и фасцикли<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
 <p>Датотеке и фасцикле копирамо или премештамо помоћу програма за организацију података.</p>
 <p>Сада ћемо научити нове начине за копирање и премештање података.</p>
 <p>У програму за организацију података поред приказа места на којем се налази жељена датотека/фасцикла коју желимо да копирамо/преместимо потребно је да прикажемо и место на које желимо да копирамо/преместимо податке.
-Кликом на стрелицу <a class="reference internal" href="../_images/L61S6.PNG"><img alt="strelica" src="../_images/L61S6.PNG" style="width: 30px;" /></a> поред иконе рачунара <a class="reference internal" href="../_images/L61S7.PNG"><img alt="strelica1" src="../_images/L61S7.PNG" style="width: 150px;" /></a> стрелица ће променити боју и приказаће се листа свих спољних меморија за трајно чување података.</p>
-<p>Тврди дискови су означени иконама попут ових <a class="reference internal" href="../_images/L61S5.PNG"><img alt="uredjaji" src="../_images/L61S5.PNG" style="width: 150px;" /></a>. Прва икона означава локални диск C, на ком је инсталиран оперативни систем.</p>
-<p>USB меморије су означене оваквим иконама <a class="reference internal" href="../_images/L61S8.PNG"><img alt="uredjaji1" src="../_images/L61S8.PNG" style="width: 200px;" /></a>.</p>
-<p>Датотеку/фасциклу коју желимо да копирамо, <strong>превлачимо</strong> до жељене локације. Датотеку/фасциклу превлачимо тако што прво кликнемо на њу, а затим држећи истовремено притиснут тастер <strong>Ctrl</strong> са тастатуре и леви (примарни) тастер миша, померамо миша. Када датотеку довучемо до жељеног места, отпуштамо тастер миша. На овај начин можемо истовремено да копирамо и више датотека/фасцикли, само је потребно да их прво све означимо.</p>
-<a class="reference internal image-reference" href="../_images/L61S10.PNG"><img alt="../_images/L61S10.PNG" class="align-center" src="../_images/L61S10.PNG" style="width: 700px;" /></a>
+Кликом на стрелицу <a class="reference internal" href="../_images/L61S6.PNG"><img alt="strelica" src="../_images/L61S6.PNG" style="width: 20px;" /></a> поред иконе рачунара <a class="reference internal" href="../_images/L61S7.PNG"><img alt="strelica1" src="../_images/L61S7.PNG" style="width: 120px;" /></a> стрелица ће променити боју и приказаће се листа свих спољних меморија за трајно чување података.</p>
+<p>Хард дискови су означени иконама попут ових <a class="reference internal" href="../_images/L61S5.PNG"><img alt="uredjaji" src="../_images/L61S5.PNG" style="width: 120px;" /></a>. Прва икона означава локални диск C, на ком је инсталиран оперативни систем.</p>
+<p>USB меморије су означене оваквим иконама: <a class="reference internal" href="../_images/L61S8.PNG"><img alt="uredjaji1" src="../_images/L61S8.PNG" style="width: 200px;" /></a></p>
+<p>Датотеку/фасциклу коју желиш да копираш, <strong>превлачиш</strong> до жељене локације. Датотеку/фасциклу превлачиш тако што прво кликнеш на њу, а затим држећи истовремено притиснут тастер <code class="docutils literal notranslate"><span class="pre">Ctrl</span></code> са тастатуре и леви (примарни) тастер миша, помераш миша. Када датотеку довучеш до жељеног места, отпушташ тастер миша. На овај начин можеш истовремено да копираш и више датотека/фасцикли, само је потребно да их прво све означиш.</p>
+<div class="figure align-center">
+<a class="screenshot-shadow reference internal image-reference" href="../_images/L61S10.PNG"><img alt="../_images/L61S10.PNG" class="screenshot-shadow" src="../_images/L61S10.PNG" style="width: 780px;" /></a>
+</div>
 <p>Након акције копирања, одабране датотеке/фасцикле појављују се на два места (у фасцикли из које су копирани и у фасцикли у коју су копирани).</p>
 <p>Да бисмо датотеку/фасциклу само преместили (уместо да је копирамо), потребно је да приликом превлачења на жељену локацију држимо притиснут тастер <strong>Shift</strong> (уместо тастера <strong>Ctrl</strong>).</p>
-<a class="reference internal image-reference" href="../_images/L61S11.PNG"><img alt="../_images/L61S11.PNG" class="align-center" src="../_images/L61S11.PNG" style="width: 700px;" /></a>
+<div class="figure align-center">
+<a class="screenshot-shadow reference internal image-reference" href="../_images/L61S11.PNG"><img alt="../_images/L61S11.PNG" class="screenshot-shadow" src="../_images/L61S11.PNG" style="width: 780px;" /></a>
+</div>
 <p>За разлику од копирања, након акције премештања, одабране датотеке/фасцикле појављују се само у фасцикли у коју су премештене.</p>
 <p>Ако током превлачења не држимо ни тастер <strong>Shift</strong> ни тастер <strong>Ctrl</strong>, превлачење у оквиру истог диска функционише као премештање, а између различитих дискова (на пример, са тврдог диска на <em>USB</em> флеш) као копирање.</p>
 <p>Опис поступка за копирање и премештање датотеке/фасцикле можете погледати на следећем видеу:</p>
 
     <div  id="aouddui7i84" class="ytvideo"  style="text-align: center; margin: 15px; cursor:pointer;">
         <div style="background-image: url('https://img.youtube.com/vi/aouddui7i84/mqdefault.jpg'); background-repeat: no-repeat;background-position: center; height: 210px; width: 310px; margin: 0 auto; border: 1px solid #20c997">
-            <img src="/_static/images/play_button.svg" style="margin-top: 78px;" /> 
+            <img src="../_static/images/play_button.svg" style="margin-top: 78px;" /> 
         </div>
       
 
@@ -585,7 +568,7 @@
 
     <div  id="iyVeFw-1Y3c" class="ytvideo"  style="text-align: center; margin: 15px; cursor:pointer;">
         <div style="background-image: url('https://img.youtube.com/vi/iyVeFw-1Y3c/mqdefault.jpg'); background-repeat: no-repeat;background-position: center; height: 210px; width: 310px; margin: 0 auto; border: 1px solid #20c997">
-            <img src="/_static/images/play_button.svg" style="margin-top: 78px;" /> 
+            <img src="../_static/images/play_button.svg" style="margin-top: 78px;" /> 
         </div>
       
 
@@ -597,15 +580,13 @@
     
     
     <p>Поступак превлачења и отпуштања можеш користити и за копирање података са рачунара у облак података.</p>
-<p>У петом разреду смо се први пут срели са облаком података.
-Да се подсетимо: рад у облаку података је сервис који омогућава сараднички рад и чување података на удаљеним рачунарима, уместо на личном дигиталном уређају.
-Сервисима приступамо коришћењем свог личног налога, који садржи податке о нама, а најчешће је везан за адресу електронске поште.</p>
-<p>Исти поступак користиш и за премештање једне фасцикле или документа унутар друге фасцикле.</p>
+<p><strong>Рад у облаку података је сервис који омогућава сараднички рад и чување података на удаљеним рачунарима, уместо на личном дигиталном уређају.</strong> Да би користио сервис у облаку потребно је да будеш повезан на интернет. Постоји веома велики број сервиса који омогућавају обраду текста, слике, креирање најразличитијих презентација, постера, колажа, анимација, видео – записа и сл.  Велика предност сервиса у облаку је што омогућавају <strong>сараднички рад</strong> – више корисника истовремено може да ради на једном документу, да пише текст, да црта, попуњава табеле.</p>
+<p>Сервисима се приступа коришћењем <strong>личног налога</strong>, који садржи податке о кориснику, а најчешће је везан за адресу електронске поште.</p>
 <p>Опис поступка за постављање датотеке/фасцикле са рачунара у облак података (ОneDrive) можете погледати на следећем видеу:</p>
 
     <div  id="-4em81Nbank" class="ytvideo"  style="text-align: center; margin: 15px; cursor:pointer;">
         <div style="background-image: url('https://img.youtube.com/vi/-4em81Nbank/mqdefault.jpg'); background-repeat: no-repeat;background-position: center; height: 210px; width: 310px; margin: 0 auto; border: 1px solid #20c997">
-            <img src="/_static/images/play_button.svg" style="margin-top: 78px;" /> 
+            <img src="../_static/images/play_button.svg" style="margin-top: 78px;" /> 
         </div>
       
 
@@ -620,7 +601,7 @@
 
     <div  id="NNmZMtvCaUU" class="ytvideo"  style="text-align: center; margin: 15px; cursor:pointer;">
         <div style="background-image: url('https://img.youtube.com/vi/NNmZMtvCaUU/mqdefault.jpg'); background-repeat: no-repeat;background-position: center; height: 210px; width: 310px; margin: 0 auto; border: 1px solid #20c997">
-            <img src="/_static/images/play_button.svg" style="margin-top: 78px;" /> 
+            <img src="../_static/images/play_button.svg" style="margin-top: 78px;" /> 
         </div>
       
 
@@ -635,7 +616,7 @@
 
     <div  id="oF59pvZi4x8" class="ytvideo"  style="text-align: center; margin: 15px; cursor:pointer;">
         <div style="background-image: url('https://img.youtube.com/vi/oF59pvZi4x8/mqdefault.jpg'); background-repeat: no-repeat;background-position: center; height: 210px; width: 310px; margin: 0 auto; border: 1px solid #20c997">
-            <img src="/_static/images/play_button.svg" style="margin-top: 78px;" /> 
+            <img src="../_static/images/play_button.svg" style="margin-top: 78px;" /> 
         </div>
       
 
@@ -647,16 +628,19 @@
     
     
     </div>
-<div class="section" id="id6">
-<h3>Проналажење датотека и фасцикли на нашем рачунару и на облаку<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id3">
+<h2>Проналажење датотека и фасцикли на нашем рачунару и у облаку<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
 <p>У петом разреду научили смо да је некада јако тешко пронаћи датотеке или фасцикле и поред добре организације података. У оваквим ситуацијама треба користити претраживање <a class="reference internal" href="../_images/L61S12.PNG"><img alt="pretraga" src="../_images/L61S12.PNG" style="width: 200px;" /></a>.</p>
 <p>Довољно је да у простор за претраживање унесемо назив или део назива датотеке/фасцикле и притиснемо тастер <strong>Enter</strong>.</p>
-<a class="reference internal image-reference" href="../_images/L61S_13.PNG"><img alt="../_images/L61S_13.PNG" class="align-center" src="../_images/L61S_13.PNG" style="width: 700px;" /></a>
+<p>Уколико не можеш да се сетиш назива датотеке или фасцикле коју тражиш, покушај да укуцавањем кључних речи или дела речи.</p>
+<div class="figure align-center">
+<a class="screenshot-shadow reference internal image-reference" href="../_images/L61S_13.PNG"><img alt="../_images/L61S_13.PNG" class="screenshot-shadow" src="../_images/L61S_13.PNG" style="width: 780px;" /></a>
+</div>
 <p>Опис поступка за проналажење датотеке/фасцикле на рачунару или у облак података (ОneDrive) можете погледати на следећем видеу:</p>
 
     <div  id="RPNALFFDn0s" class="ytvideo"  style="text-align: center; margin: 15px; cursor:pointer;">
         <div style="background-image: url('https://img.youtube.com/vi/RPNALFFDn0s/mqdefault.jpg'); background-repeat: no-repeat;background-position: center; height: 210px; width: 310px; margin: 0 auto; border: 1px solid #20c997">
-            <img src="/_static/images/play_button.svg" style="margin-top: 78px;" /> 
+            <img src="../_static/images/play_button.svg" style="margin-top: 78px;" /> 
         </div>
       
 
@@ -671,7 +655,7 @@
 
     <div  id="8G7pPlwvX5Q" class="ytvideo"  style="text-align: center; margin: 15px; cursor:pointer;">
         <div style="background-image: url('https://img.youtube.com/vi/8G7pPlwvX5Q/mqdefault.jpg'); background-repeat: no-repeat;background-position: center; height: 210px; width: 310px; margin: 0 auto; border: 1px solid #20c997">
-            <img src="/_static/images/play_button.svg" style="margin-top: 78px;" /> 
+            <img src="../_static/images/play_button.svg" style="margin-top: 78px;" /> 
         </div>
       
 
@@ -683,9 +667,11 @@
     
     
     
-    <div class="course-box course-box-info">
+    <div class="note-wrapper infonote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/infonote-img.svg" class="note-image infonote-image" /> 
         <div class="course-content">
-            <p>
+            
 <dl class="simple">
 <dt><strong>Шта смо научили?</strong></dt><dd><ul class="simple">
 <li><p>подаци треба да буду организовани да бисмо их лакше проналазили и користили;</p></li>
@@ -696,8 +682,7 @@
 </dd>
 </dl>
 
-    </p></div></div>
-</div>
+    </div></div>
 </div>
 </div>
 

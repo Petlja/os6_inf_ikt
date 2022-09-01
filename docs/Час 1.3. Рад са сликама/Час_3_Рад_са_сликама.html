@@ -6,6 +6,7 @@
     <title>Рад са сликама</title>
     <link rel="stylesheet" type="text/css" href="../_static/activecode.css" />
     <link rel="stylesheet" type="text/css" href="../_static/codemirror.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/qchoice.css" />
     <link rel="stylesheet" type="text/css" href="../_static/clickable.css" />
     <link rel="stylesheet" type="text/css" href="../_static/pytutor.css" />
     <link rel="stylesheet" type="text/css" href="../_static/modal-basic.css" />
@@ -24,13 +25,9 @@
     <link rel="stylesheet" type="text/css" href="../_static/webglinteractive.css" />
     <link rel="stylesheet" type="text/css" href="../_static/karel.css" />
     <link rel="stylesheet" type="text/css" href="../_static/notes.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/simanim.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/pycode.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/p5js.css" />
     <link rel="stylesheet" type="text/css" href="../_static/gallery.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/dbDirective.css" />
     <link rel="stylesheet" type="text/css" href="../_static/associations.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/regex-check.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/editor.css" />
     <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../_static/user-highlights.css" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" type="text/css" />
@@ -112,6 +109,7 @@
     <script type="text/javascript" src="../_static/karelCorner.js"></script>
     <script type="text/javascript" src="../_static/karelRobot.js"></script>
     <script type="text/javascript" src="../_static/karelWorld.js"></script>
+    <script type="text/javascript" src="../_static/karelChat.js"></script>
     <script type="text/javascript" src="../_static/karelRobotDrawer.js"></script>
     <script type="text/javascript" src="../_static/karelUI.js"></script>
     <script type="text/javascript" src="../_static/karel.js"></script>
@@ -119,46 +117,14 @@
     <script type="text/javascript" src="../_static/karel-i18n.sr-Cyrl.js"></script>
     <script type="text/javascript" src="../_static/notes.js"></script>
     <script type="text/javascript" src="../_static/pygamelib-init.js"></script>
-    <script type="text/javascript" src="../_static/blockly/blockly_compressed.js"></script>
-    <script type="text/javascript" src="../_static/blockly/blocks_compressed.js"></script>
-    <script type="text/javascript" src="../_static/blockly/python_compressed.js"></script>
-    <script type="text/javascript" src="../_static/blockly/msg-sr.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/utilities.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/python_errors.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/ast_node_visitor.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/abstract_interpreter.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/pytifa.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/abstract_interpreter_definitions.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/python_to_blockly.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/imported.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/class.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/comment.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/comprehensions.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/dict.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/if.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/io.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/lists.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/sets.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/loops.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/parking.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/tuple.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/turtles.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/text.js"></script>
-    <script type="text/javascript" src="../_static/blockpy-modal.js"></script>
-    <script type="text/javascript" src="../_static/simanim.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/pyodide/v0.16.1/full/pyodide.js"></script>
-    <script type="text/javascript" src="../_static/pycode.js"></script>
-    <script type="text/javascript" src="//toolness.github.io/p5.js-widget/p5-widget.js"></script>
-    <script type="text/javascript" src="../_static/p5js.js"></script>
     <script type="text/javascript" src="../_static/gallery.js"></script>
-    <script type="text/javascript" src="../_static/dbDirective.js"></script>
-    <script type="text/javascript" src="../_static/sql.js"></script>
     <script type="text/javascript" src="../_static/associations.js"></script>
     <script type="text/javascript" src="../_static/associations-i18n.en.js"></script>
     <script type="text/javascript" src="../_static/associations-i18n.sr-Cyrl.js"></script>
-    <script type="text/javascript" src="../_static/regex-check.js"></script>
-    <script type="text/javascript" src="../_static/regex-check-i18n.en.js"></script>
-    <script type="text/javascript" src="../_static/regex-check-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/editor.js"></script>
+    <script type="text/javascript" src="../_static/jszip.js"></script>
+    <script type="text/javascript" src="../_static/editor-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/editor-i18n.sr-Cyrl.js"></script>
     <script type="text/javascript" src="../_static/translations.js"></script>
     <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <script type="text/javascript" src="../_static/jquery-ui-1.10.3.custom.min.js"></script>
@@ -418,9 +384,9 @@
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
                 <div class="courseContentsSubSection d-none"><a href=../2.2.%20Интернет%20сервиси.%20Правила%20безбедног%20рада%20на%20Интернету/Интернет%20сервиси.html><div class="studioLecture" id=activity-Интернет%20сервиси><i class="fas fa-file-alt activity-icon"></i>Интернет сервиси</div></a>
-                <a href=../2.2.%20Интернет%20сервиси.%20Правила%20безбедног%20рада%20на%20Интернету/Прикупљање%20података%20путем%20онлајн%20упитника.html><div class="studioLecture" id=activity-Прикупљање%20података%20путем%20онлајн%20упитника><i class="fas fa-file-alt activity-icon"></i>Прикупљање података путем онлајн упитника</div></a>
                 <a href=../2.2.%20Интернет%20сервиси.%20Правила%20безбедног%20рада%20на%20Интернету/Правила%20безбедног%20рада%20на%20Интернету.html><div class="studioLecture" id=activity-Правила%20безбедног%20рада%20на%20Интернету><i class="fas fa-file-alt activity-icon"></i>Правила безбедног рада на Интернету</div></a>
                 <a href=../2.2.%20Интернет%20сервиси.%20Правила%20безбедног%20рада%20на%20Интернету/Квиз%20друге%20лекције.html><div class="studioLecture" id=activity-Квиз%20друге%20лекције><i class="far fa-question-circle activity-icon"></i>Квиз друге лекције</div></a>
+                <a href=../2.2.%20Интернет%20сервиси.%20Правила%20безбедног%20рада%20на%20Интернету/Прикупљање%20података%20путем%20онлајн%20упитника.html><div class="studioLecture" id=activity-Прикупљање%20података%20путем%20онлајн%20упитника><i class="fas fa-file-alt activity-icon"></i>Прикупљање података путем онлајн упитника</div></a>
                 </div>
             </div>
                 
@@ -463,29 +429,33 @@
   <div class="section" id="id1">
 <h1>Рад са сликама<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
 
-    <div class="course-box course-box-info">
+    <div class="note-wrapper infonote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/infonote-img.svg" class="note-image infonote-image" /> 
         <div class="course-content">
-            <p>
+            
 <dl class="simple">
 <dt>На овом часу ћеш научити:</dt><dd><ul class="simple">
 <li><p>од чега зависи квалитет дигиталних слика;</p></li>
 <li><p>како да на слику додаш текст;</p></li>
 <li><p>како можеш да црташ по слици;</p></li>
-<li><p>на који начин се исцртавају основни облици у програму Gimp;</p></li>
+<li><p>на који начин се исцртавају основни облици у програму Gimp 2;</p></li>
 <li><p>шта је ретуширање и како можеш да отклониш мање недостатаке на сликама.</p></li>
 </ul>
 </dd>
 </dl>
 
-    </p></div></div>
-<p>Скоро свакодневно користимо камере уграђене у паметне телефоне како би направили фотографије или видео-снимке. У петом разреду смо говорили о посебној области рачунарства која се назива рачунарска графика. <strong>Рачунарска графика</strong> се бави креирањем и обрадом слика и анимација помоћу рачунара. Један од начина да слика буде сачувана у меморији рачунара је да буде представљена помоћу <strong>пиксела</strong>. Овакав начин представљања слика назива се <strong>растерска графика</strong>.</p>
+    </div></div>
+<p>Скоро свакодневно се користе камере уграђене у паметне телефоне како би се направиле фотографије или видео-снимци. У петом разреду си се упознао са  посебном облашћу рачунарства која се назива рачунарска графика. <strong>Рачунарска графика се бави креирањем и обрадом слика и анимација помоћу рачунара</strong>. Један од начина да слика буде сачувана у меморији рачунара је да буде представљена помоћу <strong>пиксела</strong>. Овакав начин представљања слика назива се <strong>растерска графика</strong>.</p>
 <p>Хајде да се подсетимо.</p>
-<div class="section" id="id2">
-<h2>Питање:<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
 
-            <div class="course-box course-box-question course-content">
+            <div class="course-box course-box-question course-content petlja-problem-box choice-question">
+                <div class="image-background"></div>
+                <div class="petlja-problem-box-icon-holder"> </div>
+                <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image  qchoice-image" />
+                <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image-quiz  qchoice-image" /> 
             <ul data-component="multiplechoice" data-multipleanswers="false"  id="L63S1">
-            <p>Q-55: Како се назива број пиксела од којих се састоји слика? Означи тачан одговор.</p>
+            <p>Q-56: Како се назива број пиксела од којих се састоји слика? Означи тачан одговор.</p>
 
             <li data-component="answer"  id="L63S1_opt_a">дијагонала</li><li data-component="feedback" id="L63S1_opt_a">Нетачно</li>
             
@@ -496,13 +466,14 @@
 
             </ul>
             </div>
-            </div>
-<div class="section" id="id3">
-<h2>Питање:<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
-
-            <div class="course-box course-box-question course-content">
+            
+            <div class="course-box course-box-question course-content petlja-problem-box choice-question">
+                <div class="image-background"></div>
+                <div class="petlja-problem-box-icon-holder"> </div>
+                <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image  qchoice-image" />
+                <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image-quiz  qchoice-image" /> 
             <ul data-component="multiplechoice" data-multipleanswers="false"  id="L5P7">
-            <p>Q-56:     Да ли програми за рад са сликама омогућавају спајање више слика у једну и прављење колажа?</p>
+            <p>Q-57:     Да ли програми за рад са сликама омогућавају спајање више слика у једну и прављење колажа?</p>
 
             <li data-component="answer"  id="L5P7_opt_a">Не</li><li data-component="feedback" id="L5P7_opt_a">Нетачно</li>
             
@@ -511,14 +482,23 @@
 
             </ul>
             </div>
-            <p>Пиксел је најмањи елемент слике. Број пиксела од којих се састоји слика назива се <strong>резолуција</strong>. Резолуција може да се запише као производ два броја (на пример, 1200х800). Први број представља ширину слике, тј. колико има пиксела у једном реду. Други број је број пиксела у једној колони и представља висину слике. Резолуција одређује квалитет слике и утиче на количину меморије коју слика заузима. Понекад се резолуција записује као број пиксела по инчу (на пример, 72 ppi).</p>
-<p>Постоји велики број различитих програма помоћу којих можеш креирати и мењати слике. За рад са сликама оперативни систем Windows има уграђен програм Paint. Ипак неки други програми имају много више опција за уређивање слика. На пример, професионалци користе програм Adobe Photoshop. Овај програм је комерцијални и потребно је платити за његово коришћење.</p>
-<p>У шестом разреду, бавићемо се основним техникама доцртавања дигиталних слика у програму Gimp 2. Програм Gimp је бесплатан за коришћење, а нуди велики број опција за уређивање слика.</p>
+            <p><strong>Пиксел</strong> је најмањи елемент слике. Број пиксела од којих се састоји слика назива се <strong>резолуција</strong>. Резолуција може да се запише као производ два броја (на пример, 1200х800). Први број представља ширину слике, тј. колико има пиксела у једном реду. Други број је број пиксела у једној колони и представља висину слике. Резолуција одређује квалитет слике и утиче на количину меморије коју слика заузима. Понекад се резолуција записује као број пиксела по инчу (на пример, 72 ppi, 1 инч је 2,54 центиметара).</p>
+<p>Постоји велики број различитих програма помоћу којих можеш креирати и мењати слике. За рад са сликама оперативни систем Windows има уграђен програм <strong>Paint</strong>. Ипак неки други програми имају много више опција за уређивање слика. На пример, професионалци користе програм <strong>Adobe Photoshop</strong>. Овај програм је комерцијални и потребно је платити за његово коришћење.</p>
+<p>У шестом разреду, бавићемо се основним техникама доцртавања дигиталних слика у програму <strong>Gimp 2</strong>.</p>
+
+    <div class="note-wrapper infonote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/infonote-img.svg" class="note-image infonote-image" /> 
+        <div class="course-content">
+            
+<p>Програм Gimp 2 је бесплатан за коришћење, а нуди велики број опција за уређивање слика.</p>
+
+    </div></div>
 <p>Опис поступка инсталације програма за растерску графику Gimp 2 можете погледати на доњем видеу:</p>
 
     <div  id="-jSiYBv9WeU" class="ytvideo"  style="text-align: center; margin: 15px; cursor:pointer;">
         <div style="background-image: url('https://img.youtube.com/vi/-jSiYBv9WeU/mqdefault.jpg'); background-repeat: no-repeat;background-position: center; height: 210px; width: 310px; margin: 0 auto; border: 1px solid #20c997">
-            <img src="/_static/images/play_button.svg" style="margin-top: 78px;" /> 
+            <img src="../_static/images/play_button.svg" style="margin-top: 78px;" /> 
         </div>
       
 
@@ -529,18 +509,19 @@
     </div>
     
     
-    <p>Програм Gimp омогућава креирање нове слике као и прављење измена на већ постојећој слици. Означени делови слике се могу копирати или премештати. Програм омогућава спајање више слика у једну и прављење занимљивих колажа и фотомонтажа. На пример, можеш креирати постер у оквиру неког пројекта.</p>
-<p>Слику можемо да сачувамо и коришћењем опције <code class="docutils literal notranslate"><span class="pre">File</span></code> → <code class="docutils literal notranslate"><span class="pre">Save</span> <span class="pre">Аs</span></code>. Слика је тада сачувана у формату <strong>.xcf</strong> и можемо да је отворимо само у програму Gimp. Ако је потребно наставити рад на слици онда је можеш сачувати на овај начин. Међутим, овај формат није погодан за убацивање слике у друге текстуалне документе или мулитимедијалне презентације или објављивање на интернету.</p>
+    <p>Програм Gimp 2 омогућава <strong>креирање нове слике</strong> као и <strong>прављење измена</strong> на већ постојећој слици. Означени делови слике се могу копирати или премештати. Програм омогућава <strong>спајање више слика у једну</strong> и прављење занимљивих <strong>колажа и фотомонтажа</strong>. На пример, можеш креирати постер у оквиру неког пројекта.</p>
+<p>Слику можеш да сачуваш и коришћењем опције <code class="docutils literal notranslate"><span class="pre">File</span></code> → <code class="docutils literal notranslate"><span class="pre">Save</span> <span class="pre">Аs</span></code>. Слика је тада сачувана у формату <strong>.xcf</strong> и можеш да је отвориш само у програму Gimp 2. Ако је потребно да наставиш рад на слици онда је можеш сачувати на овај начин. Међутим, овај формат није погодан за додавање слике у друге текстуалне документе или мулитимедијалне презентације или објављивање на интернету.</p>
 <p>За чување слике у <strong>.jpg</strong> формату користи опцију <code class="docutils literal notranslate"><span class="pre">File</span></code> → <code class="docutils literal notranslate"><span class="pre">Export</span> <span class="pre">Аs</span></code>. Код примене ове опције потребно је поставити квалитет слике (на пример на 100), а затим кликнути на дугме <strong>Export</strong>.</p>
-<p>За прављење измене на делу слике прво треба да означиш део који желиш да мењаш. У кутији са алаткама налази се неколико алатки за означавање. На означени део могу се применити опције за уређивање слике. На пример, означени део може да се копира или премести у истој слици, у нову слику или у неку другу слику.
-У наставку су објашњене неке од честих измена на сликама: дописивање текста, цртање линија, додавање геометријских облика и отклањање недостатака.</p>
-<div class="section" id="id4">
-<h3>Додавање текста на слику<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
-<p>У левом горњем делу прозора програма Gimp2 налази се део са алаткама (енгл. <em>Toolbox</em>).</p>
-<p>За исписивање текста на слици користимо алатку <a class="reference internal" href="../_images/L63S1.png"><img alt="alatkaA" src="../_images/L63S1.png" style="width: 30px;" /></a>.</p>
-<p>Кликом на ову алатку, испод кутије са алаткама отвара се простор у коме је могуће:</p>
-<a class="reference internal image-reference" href="../_images/L63S2.PNG"><img alt="../_images/L63S2.PNG" class="align-center" src="../_images/L63S2.PNG" style="width: 300px;" /></a>
-<p>­</p>
+<p>За прављење измене на делу слике прво треба да означиш део који желиш да мењаш. У кутији са алаткама налази се неколико алатки за означавање. На означени део могу се применити опције за уређивање слике. На пример, означени део може да се копира или премести у истој слици, у нову слику или у неку другу слику.</p>
+<p>У наставку су објашњене неке од честих измена на сликама: <strong>дописивање текста, цртање линија, додавање геометријских облика и отклањање недостатака.</strong></p>
+<div class="section" id="id2">
+<h2>Додавање текста на слику<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<p>У левом горњем делу прозора програма  Gimp 2 налази се део са алаткама (енгл. <em>Toolbox</em>).</p>
+<p>За исписивање текста на слици користимо алатку <a class="reference internal" href="../_images/L63S1.png"><img alt="alatkaA" src="../_images/L63S1.png" style="width: 20px;" /></a>.</p>
+<p>Кликом на ову алатку, испод кутије са алаткама отвара се простор у коме можеш:</p>
+<div class="figure align-center">
+<a class="screenshot-shadow reference internal image-reference" href="../_images/L63S2.PNG"><img alt="../_images/L63S2.PNG" class="screenshot-shadow" src="../_images/L63S2.PNG" style="width: 300px;" /></a>
+</div>
 <ol class="arabic simple">
 <li><p>подесити фонт - тип, величину, боју (<em>Font, Size, Color</em>)</p></li>
 <li><p>одредити поравнање текста (<em>Justify</em>)</p></li>
@@ -556,7 +537,7 @@
 
     <div  id="QJDx0Stx4PE" class="ytvideo"  style="text-align: center; margin: 15px; cursor:pointer;">
         <div style="background-image: url('https://img.youtube.com/vi/QJDx0Stx4PE/mqdefault.jpg'); background-repeat: no-repeat;background-position: center; height: 210px; width: 310px; margin: 0 auto; border: 1px solid #20c997">
-            <img src="/_static/images/play_button.svg" style="margin-top: 78px;" /> 
+            <img src="../_static/images/play_button.svg" style="margin-top: 78px;" /> 
         </div>
       
 
@@ -568,24 +549,26 @@
     
     
     </div>
-<div class="section" id="id5">
-<h3>Цртање по слици<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
-<p>Осим додавањем текста, делове слике могуће је истаћи или додатно описати цртањем. Почећемо од цртања линије.</p>
-<p>За исцртавање праве линије користимо алатку <strong>оловка</strong> <a class="reference internal" href="../_images/L63S5.png"><img alt="alatkaC" src="../_images/L63S5.png" style="width: 30px;" /></a> или <strong>четкица</strong> <a class="reference internal" href="../_images/L63S3.png"><img alt="alatkaB" src="../_images/L63S3.png" style="width: 30px;" /></a>.</p>
+<div class="section" id="id3">
+<h2>Цртање по слици<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<p>Осим додавањем текста, делове слике могуће је истаћи или додатно описати цртањем. <strong>Почећемо од цртања линије</strong>.</p>
+<p>За исцртавање праве линије користимо алатку <strong>оловка</strong> <a class="reference internal" href="../_images/L63S5.png"><img alt="alatkaC" src="../_images/L63S5.png" style="width: 20px;" /></a> или <strong>четкица</strong> <a class="reference internal" href="../_images/L63S3.png"><img alt="alatkaB" src="../_images/L63S3.png" style="width: 20px;" /></a>.</p>
 <p>Кликом на једну од ових алатки, испод кутије са алаткама отвара се простор у коме је могуће подесити њихове атрибуте, међу којима су најважнији:</p>
 <ol class="arabic simple">
 <li><p>непровидност (<em>Opacity</em>);</p></li>
 <li><p>облик четкице;</p></li>
 <li><p>величина (<em>Size</em>).</p></li>
 </ol>
-<a class="reference internal image-reference" href="../_images/L63S4.PNG"><img alt="../_images/L63S4.PNG" class="align-center" src="../_images/L63S4.PNG" style="width: 300px;" /></a>
-<p>Праву линију исцртавамо тако што кликнемо да означимо почетну тачку линије, а затим, држећи притиснут тастер <strong>Shift</strong>, померамо миша до крајње тачке линије. Да би линија остала исцртана, потребно је да кликнемо у тачки њеног завршетка.</p>
-<p>Линију је могуће исцртати и слободном руком. Тада није потребно да држимо притиснут тастер <strong>Shift</strong>, већ притиснут леви тастер миша.</p>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/L63S4.PNG"><img alt="../_images/L63S4.PNG" src="../_images/L63S4.PNG" style="width: 300px;" /></a>
+</div>
+<p><strong>Праву линију</strong> исцртавамо тако што кликнемо да означимо почетну тачку линије, а затим, држећи притиснут тастер <strong>Shift</strong>, померамо миша до крајње тачке линије. Да би линија остала исцртана, потребно је да кликнемо у тачки њеног завршетка.</p>
+<p>Линију је могуће исцртати и <strong>слободном руком</strong>. Тада није потребно да држимо притиснут тастер <strong>Shift</strong>, већ притиснут леви тастер миша.</p>
 <p>Опис поступка за исцртавање праве линије и исцртавање линије слободном руком можете погледати на доњем видеу:</p>
 
     <div  id="ODRhfLtMGGg" class="ytvideo"  style="text-align: center; margin: 15px; cursor:pointer;">
         <div style="background-image: url('https://img.youtube.com/vi/ODRhfLtMGGg/mqdefault.jpg'); background-repeat: no-repeat;background-position: center; height: 210px; width: 310px; margin: 0 auto; border: 1px solid #20c997">
-            <img src="/_static/images/play_button.svg" style="margin-top: 78px;" /> 
+            <img src="../_static/images/play_button.svg" style="margin-top: 78px;" /> 
         </div>
       
 
@@ -596,14 +579,16 @@
     </div>
     
     
-    <p>Боју бирамо кликом на дугме за одабир боје предњег и задњег плана. Боју задњег плана (позадине) бирамо кликом на доњи правоугаоник, а боју предњег плана кликом на горњи правоугаоник. Отвориће се палета боја из које кликом миша одабирамо боју коју желимо. Завршетак избора потврђујемо кликом на дугме OK.</p>
-<a class="reference internal image-reference" href="../_images/L63S_6.png"><img alt="../_images/L63S_6.png" class="align-center" src="../_images/L63S_6.png" style="width: 150px;" /></a>
-<p>Када је цртање у питању, уз оловку и четкицу увек иде алатка <strong>гумица</strong> <a class="reference internal" href="../_images/L63S7.png"><img alt="gumica" src="../_images/L63S7.png" style="width: 30px;" /></a>. Бришемо тако што одаберемо алатку гумица и, држећи притиснут леви тастер миша, прелазимо преко делова слике које желимо да обришемо.</p>
+    <p><strong>Боју</strong> бираш кликом на дугме за одабир боје предњег и задњег плана. Боју задњег плана (позадине) бираш кликом на доњи правоугаоник, а боју предњег плана кликом на горњи правоугаоник. Отвориће се палета боја из које кликом миша одабираш боју коју желиш. Завршетак избора потврђујеш кликом на дугме OK.</p>
+<div class="figure align-center">
+<a class="screenshot-shadow reference internal image-reference" href="../_images/L63S_6.png"><img alt="../_images/L63S_6.png" class="screenshot-shadow" src="../_images/L63S_6.png" style="width: 150px;" /></a>
+</div>
+<p>Када је цртање у питању, уз оловку и четкицу увек иде <strong>алатка гумица</strong> <a class="reference internal" href="../_images/L63S7.png"><img alt="gumica" src="../_images/L63S7.png" style="width: 20px;" /></a>. Бришеш тако што одабереш алатку гумица и, држећи притиснут леви тастер миша, прелазиш преко делова слике које желиш да обришеш.</p>
 <p>Опис поступка за одабир боје линије можете погледати на доњем видеу:</p>
 
     <div  id="5OKDutmxJ-U" class="ytvideo"  style="text-align: center; margin: 15px; cursor:pointer;">
         <div style="background-image: url('https://img.youtube.com/vi/5OKDutmxJ-U/mqdefault.jpg'); background-repeat: no-repeat;background-position: center; height: 210px; width: 310px; margin: 0 auto; border: 1px solid #20c997">
-            <img src="/_static/images/play_button.svg" style="margin-top: 78px;" /> 
+            <img src="../_static/images/play_button.svg" style="margin-top: 78px;" /> 
         </div>
       
 
@@ -615,10 +600,10 @@
     
     
     </div>
-<div class="section" id="id6">
-<h3>Исцртавање основних облика<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
-<p>Програм Gimp2 није намењен цртању у традиционалном смислу. Ипак, можемо да нацртамо различите геометријске облике уз помоћ <strong>алатки за селекцију</strong>.
-За исцртавање основних облика згодно је да користимо алатке за правоугаону <a class="reference internal" href="../_images/L63S8.png"><img alt="pravougaonik" src="../_images/L63S8.png" style="width: 30px;" /></a> и овалну селекцију <a class="reference internal" href="../_images/L63S9.png"><img alt="oval" src="../_images/L63S9.png" style="width: 30px;" /></a>.</p>
+<div class="section" id="id4">
+<h2>Исцртавање основних облика<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<p>Програм Gimp 2 није намењен цртању у традиционалном смислу. Ипак, можеш да нацрташ различите геометријске облике уз помоћ  <strong>алатки за селекцију</strong>.
+За исцртавање основних облика згодно је да користиш алатке за правоугаону <a class="reference internal" href="../_images/L63S8.png"><img alt="pravougaonik" src="../_images/L63S8.png" style="width: 20px;" /></a> и овалну селекцију <a class="reference internal" href="../_images/L63S9.png"><img alt="oval" src="../_images/L63S9.png" style="width: 20px;" /></a>.</p>
 <p>Кликом на једну од ових алатки, испод кутије са алаткама отвара се простор у коме је могуће подесити њихове атрибуте.</p>
 <p>За исцртавање основних облика, најважнији атрибути су:</p>
 <ol class="arabic simple">
@@ -626,19 +611,23 @@
 <li><p>заобљене ивице(<em>Rounded edges</em>)</p></li>
 <li><p>исцртавање облика из центра правоугаоника/овала (<em>Expand from center</em>)</p></li>
 </ol>
-<a class="reference internal image-reference" href="../_images/L63S10.PNG"><img alt="../_images/L63S10.PNG" class="align-center" src="../_images/L63S10.PNG" style="width: 300px;" /></a>
-<p>Облик квадрата исцртавамо тако што одаберемо алатку за правоугаону селекцију и, држећи притиснут тастер <strong>Shift</strong> и леви тастер миша, развучемо квадрат.</p>
-<p>Облик правоугаоника исцртавамо на сличан начин, само што не држимо притисну тастер <strong>Shift</strong>.</p>
-<p>Облик круга исцртавамо тако што одаберемо алатку за овалну селекцију и, држећи притиснут тастер <strong>Shift</strong> и леви тастер миша, развучемо круг.</p>
-<p>Овални облик исцртавамо на сличан начин, само што не држимо притисну тастер <strong>Shift</strong>.</p>
-<p>Облике бојимо употребом алатке <strong>кантица</strong> <a class="reference internal" href="../_images/L63S11.png"><img alt="kantica" src="../_images/L63S11.png" style="width: 30px;" /></a> и избором боје из палете боја.
-У оквиру атрибута алатке кантица постоји могућност да одредимо степен непровидности боје (<em>Opacity</em>), као и да подесимо да кантица, уместо чисте боје, „просипа“ шаре (<em>Pattern fill</em>).</p>
-<a class="reference internal image-reference" href="../_images/L63S12.png"><img alt="../_images/L63S12.png" class="align-center" src="../_images/L63S12.png" style="width: 300px;" /></a>
+<div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/L63S10.PNG"><img alt="../_images/L63S10.PNG" src="../_images/L63S10.PNG" style="width: 300px;" /></a>
+</div>
+<p>Облик квадрата исцртаваш тако што одаберемш алатку за правоугаону селекцију и, држећи притиснут тастер <strong>Shift</strong> и леви тастер миша, развучеш квадрат.</p>
+<p>Облик правоугаоника исцртаваш на сличан начин, само што не држиш притисну тастер <strong>Shift</strong>.</p>
+<p>Облик круга исцртаваш тако што одабереш алатку за овалну селекцију и, држећи притиснут тастер <strong>Shift</strong> и леви тастер миша, развучеш круг.</p>
+<p>Овални облик исцртаваш на сличан начин, само што не држиш притисну тастер <strong>Shift</strong>.</p>
+<p>Облике бојимо употребом алатке <strong>кантица</strong> <a class="reference internal" href="../_images/L63S11.png"><img alt="kantica" src="../_images/L63S11.png" style="width: 20px;" /></a> и избором боје из палете боја.
+У оквиру атрибута алатке кантица постоји могућност да одредиш степен непровидности боје (<em>Opacity</em>), као и да подесиш да кантица, уместо чисте боје, „просипа“ шаре (<em>Pattern fill</em>).</p>
+<div class="figure align-center">
+<a class="screenshot-shadow reference internal image-reference" href="../_images/L63S12.png"><img alt="../_images/L63S12.png" class="screenshot-shadow" src="../_images/L63S12.png" style="width: 300px;" /></a>
+</div>
 <p>Опис поступка за исцртавање основних геометријских облика можете погледати на доњем видеу:</p>
 
     <div  id="ujZAcqiBQeA" class="ytvideo"  style="text-align: center; margin: 15px; cursor:pointer;">
         <div style="background-image: url('https://img.youtube.com/vi/ujZAcqiBQeA/mqdefault.jpg'); background-repeat: no-repeat;background-position: center; height: 210px; width: 310px; margin: 0 auto; border: 1px solid #20c997">
-            <img src="/_static/images/play_button.svg" style="margin-top: 78px;" /> 
+            <img src="../_static/images/play_button.svg" style="margin-top: 78px;" /> 
         </div>
       
 
@@ -650,27 +639,45 @@
     
     
     </div>
-<div class="section" id="id7">
-<h3>Отклањање недостатака на сликама<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
-<p>Приликом обраде фотографија понекад је неопходно урадити поправке оштаћених делова или уклонити ситне недостатке. <strong>Ретуширање</strong> је поступак поправљања, дотеривања и отклањања недостатака на фотографији. Професионални фотографи ове измене често раде у програму Adobe Photoshop, али бесплатан програм Gimp такође има ову могућност.</p>
-<p>За испрвљање недостатака на слици у програму Gimp користимо алатку <strong>Healing Tool</strong> <a class="reference internal" href="../_images/L63S6.png"><img alt="alatkaR" src="../_images/L63S6.png" style="width: 30px;" /></a>.</p>
+<div class="section" id="id5">
+<h2>Отклањање недостатака на сликама<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<p>Приликом <strong>обраде фотографија</strong> понекад је неопходно урадити поправке оштаћених делова или уклонити ситне недостатке. <strong>Ретуширање је поступак поправљања, дотеривања и отклањања недостатака на фотографији</strong>. Професионални фотографи ове измене често раде у програму Adobe Photoshop, али бесплатан програм Gimp 2 такође има ову могућност.</p>
+<p>За испрвљање недостатака на слици у програму Gimp 2 користимо алатку <strong>Healing Tool</strong> <a class="reference internal" href="../_images/L63S6.png"><img alt="alatkaR" src="../_images/L63S6.png" style="width: 20px;" /></a>.</p>
 <p><em>Савет</em>: Приликом ретуширања слике добро је да се прво сачува оригинална фотографија, па тек онда да се раде измене. Тако се увек можеш вратити на оригиналну слику уколико измене нису биле довољно добре.</p>
-<a class="reference internal image-reference" href="../_images/L63S6a.PNG"><img alt="../_images/L63S6a.PNG" class="align-center" src="../_images/L63S6a.PNG" style="width: 250px;" /></a>
+<div class="figure align-center">
+<a class="screenshot-shadow reference internal image-reference" href="../_images/L63S6a.PNG"><img alt="../_images/L63S6a.PNG" class="screenshot-shadow" src="../_images/L63S6a.PNG" style="width: 400px;" /></a>
+</div>
 <p>Након што у кутији са алаткама изабереш алатку <strong>Healing Tool</strong> постави показивач миша на део слике који желиш да користиш за поправљање недостатака и притисни тастер <strong>Ctrl</strong>. Затим кликни на део слике који желиш да поправиш. Понекад је потребно да се поступак понови више пута да би се добио жељени резултат поправљања фотографије.</p>
-<p>Приликом ретуширања фотографије често је потребно повећати величину приказа слике на екрану ради што прецизнијег рада. Промена величине приказа на екрану не утиче на величину слике која је сачувана у меморији рачунара.</p>
-<a class="reference internal image-reference" href="../_images/L63S6b.PNG"><img alt="../_images/L63S6b.PNG" class="align-center" src="../_images/L63S6b.PNG" style="width: 350px;" /></a>
-<p>На увећаном приказу лакше уочавамо недостатке које желимо да уклонимо и повећавамо прецизност у раду. На следећим сликама приказана је увећана слика лубенице и изглед слике након ретуширања када су уклоњене црвене линије.</p>
-<a class="reference internal image-reference" href="../_images/L63S6c.PNG"><img alt="../_images/L63S6c.PNG" class="align-left" src="../_images/L63S6c.PNG" style="width: 350px;" /></a>
-<a class="reference internal image-reference" href="../_images/L63S6d.PNG"><img alt="../_images/L63S6d.PNG" src="../_images/L63S6d.PNG" style="width: 250px;" /></a>
 
-    <div class="course-box course-box-info">
+    <div class="note-wrapper suggestionnote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/suggestionnote-img.svg" class="note-image suggestionnote-image" /> 
         <div class="course-content">
-            <p>
+            
+<p>Приликом ретуширања фотографије често је потребно повећати величину приказа слике на екрану ради што прецизнијег рада. Промена величине приказа на екрану не утиче на величину слике која је сачувана у меморији рачунара.</p>
+
+    </div></div>
+<div class="figure align-center">
+<a class="screenshot-shadow reference internal image-reference" href="../_images/L63S6b.PNG"><img alt="../_images/L63S6b.PNG" class="screenshot-shadow" src="../_images/L63S6b.PNG" style="width: 400px;" /></a>
+</div>
+<p>На увећаном приказу лакше можеш да уочиш недостатке које желиш да уклониш и повећаваш прецизност у раду. На следећим сликама приказана је увећана слика лубенице и изглед слике након ретуширања када су уклоњене црвене линије.</p>
+<div class="figure align-left">
+<a class="reference internal image-reference" href="../_images/L63S6c.PNG"><img alt="../_images/L63S6c.PNG" src="../_images/L63S6c.PNG" style="width: 350px;" /></a>
+</div>
+<div class="figure align-default">
+<a class="reference internal image-reference" href="../_images/L63S6d.PNG"><img alt="../_images/L63S6d.PNG" src="../_images/L63S6d.PNG" style="width: 250px;" /></a>
+</div>
+
+    <div class="note-wrapper infonote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/infonote-img.svg" class="note-image infonote-image" /> 
+        <div class="course-content">
+            
 <dl class="simple">
 <dt><strong>Шта смо научили?</strong></dt><dd><ul class="simple">
 <li><p>да је код растерске графике основни елемент за представање слике пиксел.</p></li>
 <li><p>да је резолуција важна особина која утиче на квалитет слике и количину меморије коју слика заузима.</p></li>
-<li><p>да је програм Gimp бесплатан за коришћење, а нуди велики број опција за уређивање слика.</p></li>
+<li><p>да је програм Gimp 2 бесплатан за коришћење, а нуди велики број опција за уређивање слика.</p></li>
 <li><p>да програми за обраду слика омогућава спајање више слика у једну и прављење занимљивих колажа и фотомонтажа.</p></li>
 <li><p>да су неке од техника за измену слике: додавање текста, цртање по слици, исцртавање основних облика и отклањање недостатака.</p></li>
 <li><p>да у раду са сликама можемо изабрати и користити две боје: боју предњег и боју задњег плана (боја позадине).</p></li>
@@ -678,8 +685,7 @@
 </dd>
 </dl>
 
-    </p></div></div>
-</div>
+    </div></div>
 </div>
 </div>
 

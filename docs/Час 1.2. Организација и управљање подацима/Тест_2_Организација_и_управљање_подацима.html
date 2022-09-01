@@ -6,6 +6,7 @@
     <title>Квиз. Организација и управљање подацима</title>
     <link rel="stylesheet" type="text/css" href="../_static/activecode.css" />
     <link rel="stylesheet" type="text/css" href="../_static/codemirror.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/qchoice.css" />
     <link rel="stylesheet" type="text/css" href="../_static/clickable.css" />
     <link rel="stylesheet" type="text/css" href="../_static/pytutor.css" />
     <link rel="stylesheet" type="text/css" href="../_static/modal-basic.css" />
@@ -24,13 +25,9 @@
     <link rel="stylesheet" type="text/css" href="../_static/webglinteractive.css" />
     <link rel="stylesheet" type="text/css" href="../_static/karel.css" />
     <link rel="stylesheet" type="text/css" href="../_static/notes.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/simanim.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/pycode.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/p5js.css" />
     <link rel="stylesheet" type="text/css" href="../_static/gallery.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/dbDirective.css" />
     <link rel="stylesheet" type="text/css" href="../_static/associations.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/regex-check.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/editor.css" />
     <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../_static/user-highlights.css" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" type="text/css" />
@@ -112,6 +109,7 @@
     <script type="text/javascript" src="../_static/karelCorner.js"></script>
     <script type="text/javascript" src="../_static/karelRobot.js"></script>
     <script type="text/javascript" src="../_static/karelWorld.js"></script>
+    <script type="text/javascript" src="../_static/karelChat.js"></script>
     <script type="text/javascript" src="../_static/karelRobotDrawer.js"></script>
     <script type="text/javascript" src="../_static/karelUI.js"></script>
     <script type="text/javascript" src="../_static/karel.js"></script>
@@ -119,46 +117,14 @@
     <script type="text/javascript" src="../_static/karel-i18n.sr-Cyrl.js"></script>
     <script type="text/javascript" src="../_static/notes.js"></script>
     <script type="text/javascript" src="../_static/pygamelib-init.js"></script>
-    <script type="text/javascript" src="../_static/blockly/blockly_compressed.js"></script>
-    <script type="text/javascript" src="../_static/blockly/blocks_compressed.js"></script>
-    <script type="text/javascript" src="../_static/blockly/python_compressed.js"></script>
-    <script type="text/javascript" src="../_static/blockly/msg-sr.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/utilities.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/python_errors.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/ast_node_visitor.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/abstract_interpreter.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/pytifa.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/abstract_interpreter_definitions.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/python_to_blockly.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/imported.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/class.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/comment.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/comprehensions.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/dict.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/if.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/io.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/lists.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/sets.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/loops.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/parking.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/tuple.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/turtles.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/text.js"></script>
-    <script type="text/javascript" src="../_static/blockpy-modal.js"></script>
-    <script type="text/javascript" src="../_static/simanim.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/pyodide/v0.16.1/full/pyodide.js"></script>
-    <script type="text/javascript" src="../_static/pycode.js"></script>
-    <script type="text/javascript" src="//toolness.github.io/p5.js-widget/p5-widget.js"></script>
-    <script type="text/javascript" src="../_static/p5js.js"></script>
     <script type="text/javascript" src="../_static/gallery.js"></script>
-    <script type="text/javascript" src="../_static/dbDirective.js"></script>
-    <script type="text/javascript" src="../_static/sql.js"></script>
     <script type="text/javascript" src="../_static/associations.js"></script>
     <script type="text/javascript" src="../_static/associations-i18n.en.js"></script>
     <script type="text/javascript" src="../_static/associations-i18n.sr-Cyrl.js"></script>
-    <script type="text/javascript" src="../_static/regex-check.js"></script>
-    <script type="text/javascript" src="../_static/regex-check-i18n.en.js"></script>
-    <script type="text/javascript" src="../_static/regex-check-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/editor.js"></script>
+    <script type="text/javascript" src="../_static/jszip.js"></script>
+    <script type="text/javascript" src="../_static/editor-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/editor-i18n.sr-Cyrl.js"></script>
     <script type="text/javascript" src="../_static/translations.js"></script>
     <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <script type="text/javascript" src="../_static/jquery-ui-1.10.3.custom.min.js"></script>
@@ -418,9 +384,9 @@
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
                 <div class="courseContentsSubSection d-none"><a href=../2.2.%20Интернет%20сервиси.%20Правила%20безбедног%20рада%20на%20Интернету/Интернет%20сервиси.html><div class="studioLecture" id=activity-Интернет%20сервиси><i class="fas fa-file-alt activity-icon"></i>Интернет сервиси</div></a>
-                <a href=../2.2.%20Интернет%20сервиси.%20Правила%20безбедног%20рада%20на%20Интернету/Прикупљање%20података%20путем%20онлајн%20упитника.html><div class="studioLecture" id=activity-Прикупљање%20података%20путем%20онлајн%20упитника><i class="fas fa-file-alt activity-icon"></i>Прикупљање података путем онлајн упитника</div></a>
                 <a href=../2.2.%20Интернет%20сервиси.%20Правила%20безбедног%20рада%20на%20Интернету/Правила%20безбедног%20рада%20на%20Интернету.html><div class="studioLecture" id=activity-Правила%20безбедног%20рада%20на%20Интернету><i class="fas fa-file-alt activity-icon"></i>Правила безбедног рада на Интернету</div></a>
                 <a href=../2.2.%20Интернет%20сервиси.%20Правила%20безбедног%20рада%20на%20Интернету/Квиз%20друге%20лекције.html><div class="studioLecture" id=activity-Квиз%20друге%20лекције><i class="far fa-question-circle activity-icon"></i>Квиз друге лекције</div></a>
+                <a href=../2.2.%20Интернет%20сервиси.%20Правила%20безбедног%20рада%20на%20Интернету/Прикупљање%20података%20путем%20онлајн%20упитника.html><div class="studioLecture" id=activity-Прикупљање%20података%20путем%20онлајн%20упитника><i class="fas fa-file-alt activity-icon"></i>Прикупљање података путем онлајн упитника</div></a>
                 </div>
             </div>
                 
@@ -462,12 +428,16 @@
     
   <div class="section" id="id1">
 <h1>Квиз. Организација и управљање подацима<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="id2">
-<h2>Питање 1.<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
 
-            <div class="course-box course-box-question course-content">
+    <div class="quiz-question">
+
+            <div class="course-box course-box-question course-content petlja-problem-box choice-question">
+                <div class="image-background"></div>
+                <div class="petlja-problem-box-icon-holder"> </div>
+                <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image  qchoice-image" />
+                <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image-quiz  qchoice-image" /> 
             <ul data-component="multiplechoice" data-multipleanswers="false"  id="L62P4">
-            <p>Q-43: Да ли се блутут технологија може корстити за слање слика измећу два паметна телефона? Означи тачан одговор.</p>
+            <p>Q-44: Да ли се блутут технологија може корстити за слање слика измећу два паметна телефона? Означи тачан одговор.</p>
 
             <li data-component="answer" data-correct id="L62P4_opt_a">да</li><li data-component="feedback" id="L62P4_opt_a">Тачно</li>
             
@@ -476,76 +446,101 @@
 
             </ul>
             </div>
-            </div>
-<div class="section" id="id3">
-<h2>Питање 2.<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
-
-            <div class="course-box course-box-question course-content">
-            <ul data-component="multiplechoice" data-multipleanswers="false"  id="L62P5">
-            <p>Q-44: Коришћењем ког тастера са тастатуре је могуће премештати датотеке/фасцикле са тврдог диска на USB меморију? Означи тачан одговор.</p>
-
-            <li data-component="answer"  id="L62P5_opt_a">Alt</li><li data-component="feedback" id="L62P5_opt_a">Нетачно</li>
             
-            <li data-component="answer" data-correct id="L62P5_opt_b">Shift</li><li data-component="feedback" id="L62P5_opt_b">Тачно</li>
-            
-            <li data-component="answer"  id="L62P5_opt_c">Enter</li><li data-component="feedback" id="L62P5_opt_c">Нетачно</li>
-            
-            <li data-component="answer"  id="L62P5_opt_d">Ctrl</li><li data-component="feedback" id="L62P5_opt_d">Нетачно</li>
-            
+    </div>
 
-            </ul>
-            </div>
-            </div>
-<div class="section" id="id4">
-<h2>Питање 3.<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+    <div class="quiz-question">
 
-            <div class="course-box course-box-question course-content">
-            <ul data-component="multiplechoice" data-multipleanswers="false"  id="L62P6">
-            <p>Q-45: Да ли поступак превлачења и отпуштања је поступак који можеш да користиш за копирање или премештање података на спољне меморије или у облаку података? Означи тачан одговор.</p>
-
-            <li data-component="answer" data-correct id="L62P6_opt_a">да</li><li data-component="feedback" id="L62P6_opt_a">Тачно</li>
-            
-            <li data-component="answer"  id="L62P6_opt_b">не</li><li data-component="feedback" id="L62P6_opt_b">Нетачно</li>
-            
-
-            </ul>
-            </div>
-            </div>
-<div class="section" id="id5">
-<h2>Питање 4.<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
-
-            <div class="course-box course-box-question course-content">
-            <ul data-component="multiplechoice" data-multipleanswers="false"  id="L62P7">
-            <p>Q-46: Да ли се након акције премештања, одабране датотеке/фасцикле појављују само у фасцикли у коју су премештене? Означи тачан одговор.</p>
-
-            <li data-component="answer" data-correct id="L62P7_opt_a">да</li><li data-component="feedback" id="L62P7_opt_a">Тачно</li>
-            
-            <li data-component="answer"  id="L62P7_opt_b">не</li><li data-component="feedback" id="L62P7_opt_b">Нетачно</li>
-            
-
-            </ul>
-            </div>
-            </div>
-<div class="section" id="id6">
-<h2>Питање 5.<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
-
-<div class="course-box course-box-problem course-content">
-<ul data-component="dragndrop" id="L62P8">
-    <span data-component="question">Q-47: Повежи одговарајуће врсте датотека и дате примере екстензија.</span>
+<div class="course-box course-box-problem course-content petlja-problem-box dragndrop-question">
+    <div class="image-background"></div>
+    <div class="petlja-problem-box-icon-holder"> </div>
+    <img src="../_static/img/dragndrop-img.svg" class="petlja-problem-image  dragndrop-image" /> 
+    <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image-quiz  qchoice-image" /> 
+<ul data-component="dragndrop" id="L62P5">
+    <span data-component="question">Q-45: Повежи одговарајуће врсте датотека и дате примере екстензија.</span>
 	
 
-    <li data-component="draggable" id="L62P8_drag1">слика </li>
-    <li data-component="dropzone" for="L62P8_drag1"> .gif .jpg</li>
+    <li data-component="draggable" id="L62P5_drag1">слика </li>
+    <li data-component="dropzone" for="L62P5_drag1"> .gif .jpg</li>
 
-    <li data-component="draggable" id="L62P8_drag2">текст </li>
-    <li data-component="dropzone" for="L62P8_drag2"> .txt .docx</li>
+    <li data-component="draggable" id="L62P5_drag2">видео-запис </li>
+    <li data-component="dropzone" for="L62P5_drag2"> .mp4 .mov</li>
 
-    <li data-component="draggable" id="L62P8_drag3">звук </li>
-    <li data-component="dropzone" for="L62P8_drag3"> .mp3 .wav</li>
+    <li data-component="draggable" id="L62P5_drag3">звук </li>
+    <li data-component="dropzone" for="L62P5_drag3"> .mp3 . wav</li>
 
-    <li data-component="draggable" id="L62P8_drag4">видео-запис </li>
-    <li data-component="dropzone" for="L62P8_drag4"> .mp4 .mov</li>
-</ul></div></div>
+    <li data-component="draggable" id="L62P5_drag4">текст </li>
+    <li data-component="dropzone" for="L62P5_drag4"> .txt .docx</li>
+</ul></div>
+    </div>
+
+    <div class="quiz-question">
+
+            <div class="course-box course-box-question course-content petlja-problem-box choice-question">
+                <div class="image-background"></div>
+                <div class="petlja-problem-box-icon-holder"> </div>
+                <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image  qchoice-image" />
+                <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image-quiz  qchoice-image" /> 
+            <ul data-component="multiplechoice" data-multipleanswers="false"  id="L62P6">
+            <p>Q-46: Важно је да повремено правиш резервне копије докумената и да их чуваш на уређају одвојеном од уређаја на коме радиш:</p>
+
+            <li data-component="answer"  id="L62P6_opt_a">само ако радиш на школском (заједничком) рачунару.</li><li data-component="feedback" id="L62P6_opt_a">Тачно</li>
+            
+            <li data-component="answer" data-correct id="L62P6_opt_b">Увек</li><li data-component="feedback" id="L62P6_opt_b">Нетачно</li>
+            
+            <li data-component="answer"  id="L62P6_opt_c">само ако користиш рачунар који није у гаранцији (обично старији од две године).</li><li data-component="feedback" id="L62P6_opt_c">Нетачно</li>
+            
+
+            </ul>
+            </div>
+            
+    </div>
+
+    <div class="quiz-question">
+
+            <div class="course-box course-box-question course-content petlja-problem-box choice-question">
+                <div class="image-background"></div>
+                <div class="petlja-problem-box-icon-holder"> </div>
+                <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image  qchoice-image" />
+                <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image-quiz  qchoice-image" /> 
+            <ul data-component="multiplechoice" data-multipleanswers="false"  id="L62P7">
+            <p>Q-47: Означи тачне одговоре:</p>
+
+            <li data-component="answer"  id="L62P7_opt_a">Само израду текстуалних докумената али не и њихово чување</li><li data-component="feedback" id="L62P7_opt_a">Тачно</li>
+            
+            <li data-component="answer" data-correct id="L62P7_opt_b">Увексараднички рад и чување података на удаљеним рачунарима, уместо на личном дигиталном уређају.</li><li data-component="feedback" id="L62P7_opt_b">Нетачно</li>
+            
+            <li data-component="answer"  id="L62P7_opt_c">Чување података на удаљеним рачунарима али не и њихову обраду.</li><li data-component="feedback" id="L62P7_opt_c">Нетачно</li>
+            
+
+            </ul>
+            </div>
+            
+    </div>
+
+    <div class="quiz-question">
+
+            <div class="course-box course-box-question course-content petlja-problem-box choice-question">
+                <div class="image-background"></div>
+                <div class="petlja-problem-box-icon-holder"> </div>
+                <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image  qchoice-image" />
+                <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image-quiz  qchoice-image" /> 
+            <ul data-component="multiplechoice" data-multipleanswers="false"  id="L62P8">
+            <p>Q-48: Документ са називом <strong>likovno.jpg</strong> се налази у фасцикли <strong>skola 2021</strong>. Када на документ примениш алатку <em>Cut</em>  а затим отвориш другу фасциклу <strong>skola 2022</strong>  и у њој примениш алатку <em>Paste</em>:</p>
+
+            <li data-component="answer" data-correct id="L62P8_opt_a">документ likovno.jpg се налази само у фасцикли skola 2022</li><li data-component="feedback" id="L62P8_opt_a">Тачно</li>
+            
+            <li data-component="answer"  id="L62P8_opt_b">документ likovno.jpg се налази у обе фасцикле, skola 2021 и skola 2022</li><li data-component="feedback" id="L62P8_opt_b">Нетачно</li>
+            
+            <li data-component="answer"  id="L62P8_opt_c">документ likovno.jpg се налази само у у фасцикли skola 2021</li><li data-component="feedback" id="L62P8_opt_c">Нетачно</li>
+            
+            <li data-component="answer"  id="L62P8_opt_d">на основу наведеног није могуће одредити место документа likovno.jpg</li><li data-component="feedback" id="L62P8_opt_d">Нетачно</li>
+            
+
+            </ul>
+            </div>
+            
+    </div>
 </div>
 
 

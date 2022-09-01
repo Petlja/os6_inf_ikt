@@ -6,6 +6,7 @@
     <title>Час. Мултимедијалне презентације</title>
     <link rel="stylesheet" type="text/css" href="../_static/activecode.css" />
     <link rel="stylesheet" type="text/css" href="../_static/codemirror.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/qchoice.css" />
     <link rel="stylesheet" type="text/css" href="../_static/clickable.css" />
     <link rel="stylesheet" type="text/css" href="../_static/pytutor.css" />
     <link rel="stylesheet" type="text/css" href="../_static/modal-basic.css" />
@@ -24,13 +25,9 @@
     <link rel="stylesheet" type="text/css" href="../_static/webglinteractive.css" />
     <link rel="stylesheet" type="text/css" href="../_static/karel.css" />
     <link rel="stylesheet" type="text/css" href="../_static/notes.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/simanim.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/pycode.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/p5js.css" />
     <link rel="stylesheet" type="text/css" href="../_static/gallery.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/dbDirective.css" />
     <link rel="stylesheet" type="text/css" href="../_static/associations.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/regex-check.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/editor.css" />
     <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../_static/user-highlights.css" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" type="text/css" />
@@ -112,6 +109,7 @@
     <script type="text/javascript" src="../_static/karelCorner.js"></script>
     <script type="text/javascript" src="../_static/karelRobot.js"></script>
     <script type="text/javascript" src="../_static/karelWorld.js"></script>
+    <script type="text/javascript" src="../_static/karelChat.js"></script>
     <script type="text/javascript" src="../_static/karelRobotDrawer.js"></script>
     <script type="text/javascript" src="../_static/karelUI.js"></script>
     <script type="text/javascript" src="../_static/karel.js"></script>
@@ -119,46 +117,14 @@
     <script type="text/javascript" src="../_static/karel-i18n.sr-Cyrl.js"></script>
     <script type="text/javascript" src="../_static/notes.js"></script>
     <script type="text/javascript" src="../_static/pygamelib-init.js"></script>
-    <script type="text/javascript" src="../_static/blockly/blockly_compressed.js"></script>
-    <script type="text/javascript" src="../_static/blockly/blocks_compressed.js"></script>
-    <script type="text/javascript" src="../_static/blockly/python_compressed.js"></script>
-    <script type="text/javascript" src="../_static/blockly/msg-sr.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/utilities.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/python_errors.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/ast_node_visitor.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/abstract_interpreter.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/pytifa.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/abstract_interpreter_definitions.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/python_to_blockly.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/imported.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/class.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/comment.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/comprehensions.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/dict.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/if.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/io.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/lists.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/sets.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/loops.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/parking.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/tuple.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/turtles.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/text.js"></script>
-    <script type="text/javascript" src="../_static/blockpy-modal.js"></script>
-    <script type="text/javascript" src="../_static/simanim.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/pyodide/v0.16.1/full/pyodide.js"></script>
-    <script type="text/javascript" src="../_static/pycode.js"></script>
-    <script type="text/javascript" src="//toolness.github.io/p5.js-widget/p5-widget.js"></script>
-    <script type="text/javascript" src="../_static/p5js.js"></script>
     <script type="text/javascript" src="../_static/gallery.js"></script>
-    <script type="text/javascript" src="../_static/dbDirective.js"></script>
-    <script type="text/javascript" src="../_static/sql.js"></script>
     <script type="text/javascript" src="../_static/associations.js"></script>
     <script type="text/javascript" src="../_static/associations-i18n.en.js"></script>
     <script type="text/javascript" src="../_static/associations-i18n.sr-Cyrl.js"></script>
-    <script type="text/javascript" src="../_static/regex-check.js"></script>
-    <script type="text/javascript" src="../_static/regex-check-i18n.en.js"></script>
-    <script type="text/javascript" src="../_static/regex-check-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/editor.js"></script>
+    <script type="text/javascript" src="../_static/jszip.js"></script>
+    <script type="text/javascript" src="../_static/editor-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/editor-i18n.sr-Cyrl.js"></script>
     <script type="text/javascript" src="../_static/translations.js"></script>
     <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <script type="text/javascript" src="../_static/jquery-ui-1.10.3.custom.min.js"></script>
@@ -418,9 +384,9 @@
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
                 <div class="courseContentsSubSection d-none"><a href=../2.2.%20Интернет%20сервиси.%20Правила%20безбедног%20рада%20на%20Интернету/Интернет%20сервиси.html><div class="studioLecture" id=activity-Интернет%20сервиси><i class="fas fa-file-alt activity-icon"></i>Интернет сервиси</div></a>
-                <a href=../2.2.%20Интернет%20сервиси.%20Правила%20безбедног%20рада%20на%20Интернету/Прикупљање%20података%20путем%20онлајн%20упитника.html><div class="studioLecture" id=activity-Прикупљање%20података%20путем%20онлајн%20упитника><i class="fas fa-file-alt activity-icon"></i>Прикупљање података путем онлајн упитника</div></a>
                 <a href=../2.2.%20Интернет%20сервиси.%20Правила%20безбедног%20рада%20на%20Интернету/Правила%20безбедног%20рада%20на%20Интернету.html><div class="studioLecture" id=activity-Правила%20безбедног%20рада%20на%20Интернету><i class="fas fa-file-alt activity-icon"></i>Правила безбедног рада на Интернету</div></a>
                 <a href=../2.2.%20Интернет%20сервиси.%20Правила%20безбедног%20рада%20на%20Интернету/Квиз%20друге%20лекције.html><div class="studioLecture" id=activity-Квиз%20друге%20лекције><i class="far fa-question-circle activity-icon"></i>Квиз друге лекције</div></a>
+                <a href=../2.2.%20Интернет%20сервиси.%20Правила%20безбедног%20рада%20на%20Интернету/Прикупљање%20података%20путем%20онлајн%20упитника.html><div class="studioLecture" id=activity-Прикупљање%20података%20путем%20онлајн%20упитника><i class="fas fa-file-alt activity-icon"></i>Прикупљање података путем онлајн упитника</div></a>
                 </div>
             </div>
                 
@@ -463,9 +429,11 @@
   <div class="section" id="id1">
 <h1>Час. Мултимедијалне презентације<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
 
-    <div class="course-box course-box-info">
+    <div class="note-wrapper infonote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/infonote-img.svg" class="note-image infonote-image" /> 
         <div class="course-content">
-            <p>
+            
 <dl class="simple">
 <dt>На овом часу ћеш научити:</dt><dd><ul class="simple">
 <li><p>које су одлике квалитетне мултимедијилане презентације;</p></li>
@@ -474,43 +442,56 @@
 </dd>
 </dl>
 
-    </p></div></div>
-<p>Oве школске године за креирање једноставне мултимедијалне користићемо модел-слајд (тачније мастер-слајд) помоћу кога ћемо форматирати сваки појединачни слајд презентације.</p>
-<p><strong>Мастер-слајд</strong> садржи информације (о теми, распореду слајдова, боју позадине слајдова, фонтове, ефекте,..) који су нам за ту презентацију потребни. Форматирањем мастер-слајда мењамо формат свих осталих слајдова презентације.</p>
+    </div></div>
+<p>При уређивању презентације, можеш уређивати слајд по слајд, односно сваки елемент на сваком слајду посебно. Уколико желиш да сви слајдови буду уређени на исти начин (сви наслови на истој позицији, сви карактери истог типа, иста позадинска слика на свим слајдовима или исти натпис у горњем / доњем углу…) можеш користити мастер – слајд (модел слајд).</p>
+<p><strong>Мастер-слајд</strong> садржи информације (о теми, распореду слајдова, боју позадине слајдова, фонтове, ефекте,..) који су нам за презентацију потребни. Форматирањем мастер-слајда мењамо формат свих осталих слајдова презентације.</p>
 <p>Програм Microsoft Оffice Power Point покрећемо кликом на <code class="docutils literal notranslate"><span class="pre">Start</span></code> → <code class="docutils literal notranslate"><span class="pre">All</span> <span class="pre">Programs</span></code> → <code class="docutils literal notranslate"><span class="pre">Microsoft</span> <span class="pre">Office</span></code> → <code class="docutils literal notranslate"><span class="pre">Microsoft</span> <span class="pre">Office</span> <span class="pre">Power</span> <span class="pre">Point</span></code>. У овом програму мастер-слајд креирамо тако што у картици <strong>View</strong> одаберемо опцију <code class="docutils literal notranslate"><span class="pre">Slide</span> <span class="pre">Master</span></code>.</p>
 <a class="reference internal image-reference" href="../_images/L610S1.png"><img alt="../_images/L610S1.png" class="align-center" src="../_images/L610S1.png" style="width: 200px;" /></a>
 <p>Главни мастер-слајд је први слајд у простору са сликама на левој страни прозора. Повезани мајстер-слајдови нанизани су одмах испод њега.</p>
-<a class="reference internal image-reference" href="../_images/L610S2.png"><img alt="../_images/L610S2.png" class="align-center" src="../_images/L610S2.png" style="width: 700px;" /></a>
+<div class="figure align-center">
+<a class="screenshot-shadow reference internal image-reference" href="../_images/L610S2.png"><img alt="../_images/L610S2.png" class="screenshot-shadow" src="../_images/L610S2.png" style="width: 780px;" /></a>
+</div>
 <p>Кликом на опцију <code class="docutils literal notranslate"><span class="pre">Slide</span> <span class="pre">Master</span></code> можемо уочити:</p>
 <ol class="arabic simple">
 <li><p>главни мастер-слајд;</p></li>
 <li><p>повезане мастер-слајдове.</p></li>
 </ol>
-<p>Форматирање мастер-слајда врши се у оквиру картице <strong>Home</strong> тако што означавамо (селектујемо) текст, а затим примењујемо одговарајуће акције форматирања.</p>
-<p>У дну главног мастер-слајда постоје три поља која су предвиђена за приказ датума, текста и редног броја слајда. Поља су подешена тако да се не приказују на слајду.
-Ово подешавање мењамо у оквиру картице <code class="docutils literal notranslate"><span class="pre">Insert</span></code> → <code class="docutils literal notranslate"><span class="pre">Header&amp;Footer</span></code>, тако што кликнемо у квадратић испред поља које желимо да буде видљиво.</p>
-<a class="reference internal image-reference" href="../_images/L610S3.png"><img alt="../_images/L610S3.png" class="align-center" src="../_images/L610S3.png" style="width: 700px;" /></a>
-<p>Јако је важно да знаш да форматирањем главног мастер-слајда мењамо формат свих осталих слајдова презентације. Међутим, форматирањем неког од повезаних мастер-слајдова мења се само његов изглед, без утицаја на главни и остале повезане мастер-слајдове.</p>
-<p>Ако желимо да креирамо презентацију која садржи слајдове са распоредом елемената по нашој жељи, једноставније је направити нови повезани мастер-слајд, него мењати постојеће.
-То се постиже кликом на <code class="docutils literal notranslate"><span class="pre">Slide</span> <span class="pre">Master</span></code> → <code class="docutils literal notranslate"><span class="pre">Insert</span> <span class="pre">Layout</span></code>.</p>
+<p>Форматирање мастер-слајда врши се у оквиру картице <strong>Home</strong> тако што означиш (селектујеш) текст, а затим примиш одговарајуће акције форматирања.</p>
+<p>У дну главног мастер-слајда постоје три поља која су предвиђена за приказ датума, текста и редног броја слајда. Поља су подешена тако да се не приказују на слајду. Ово подешавање можеш променити у оквиру картице <code class="docutils literal notranslate"><span class="pre">Insert</span></code> → <code class="docutils literal notranslate"><span class="pre">Header&amp;Footer</span></code>, тако што кликнеш у квадратић испред поља које желиш да буде видљиво.</p>
+<a class="reference internal image-reference" href="../_images/L610S3.png"><img alt="../_images/L610S3.png" class="align-center" src="../_images/L610S3.png" style="width: 780px;" /></a>
+<p>Јако је важно да знаш да форматирањем главног мастер-слајда мењаш формат свих осталих слајдова презентације. Међутим, форматирањем неког од повезаних мастер-слајдова мења се само његов изглед, без утицаја на главни и остале повезане мастер-слајдове.</p>
+
+    <div class="note-wrapper learnmorenote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/learnmorenote-img.svg" class="note-image learnmorenote-image" /> 
+        <div class="course-content">
+            
+<p>Ако желиш да знаш више</p>
+<p>Ако желиш да креираш презентацију која садржи слајдове са распоредом елемената по твојој жељи, једноставније је направити нови повезани мастер-слајд, него мењати постојеће. То се постиже кликом на <code class="docutils literal notranslate"><span class="pre">Slide</span> <span class="pre">Master</span></code> → <code class="docutils literal notranslate"><span class="pre">Insert</span> <span class="pre">Layout</span></code>.</p>
 <a class="reference internal image-reference" href="../_images/L610S4.png"><img alt="../_images/L610S4.png" class="align-center" src="../_images/L610S4.png" style="width: 200px;" /></a>
 <p>Отвориће се празан слајд који садржи оквир за наслов и поља за датум, текст на дну слајда и редни број слајда.
 Кликом на падајућу листу <code class="docutils literal notranslate"><span class="pre">Insert</span> <span class="pre">Placeholder</span></code> добијамо могућност да одаберемо оквир који ће садржати текст/слику/звук/табелу…</p>
 <a class="reference internal image-reference" href="../_images/L610S5.png"><img alt="../_images/L610S5.png" class="align-center" src="../_images/L610S5.png" style="width: 200px;" /></a>
+
+    </div></div>
 <p>Оквир постављамо на слајд тако што га „исцртавамо” (држимо притиснут леви тастер миша и развлачимо оквир до величине која нам одговара).
 Осим оквира, на слајд је могуће додати елементе попут конкретне слике, графикона, текста… који ће се приказивати на слајду. Довољно је да одаберемо картицу <strong>Insert</strong>, а затим и врсту садржаја коју желимо да додамо. Отвориће се дијалог у коме означавамо коју датотеку додајемо и одабирамо опцију <code class="docutils literal notranslate"><span class="pre">Insert</span></code>.</p>
 <p>Новом повезаном мастер-слајду можемо да променимо име кликом <code class="docutils literal notranslate"><span class="pre">Master</span> <span class="pre">Slide</span></code> → <code class="docutils literal notranslate"><span class="pre">Rename</span></code> и укуцавањем новог назива у предвиђени простор.</p>
 <a class="reference internal image-reference" href="../_images/L610S6.PNG"><img alt="../_images/L610S6.PNG" class="align-center" src="../_images/L610S6.PNG" style="width: 600px;" /></a>
 <p>Када завршимо са форматирањем главног и повезаних мастер-слајдова, потребно је да затворимо картицу <strong>Slide Master</strong> кликом на <code class="docutils literal notranslate"><span class="pre">Close</span> <span class="pre">Master</span> <span class="pre">View</span></code> <a class="reference internal" href="../_images/L610S7.png"><img alt="n1" src="../_images/L610S7.png" style="width: 50px;" /></a>.</p>
 <p>Новоформирани повезани мастер-слајд доступан је у падајућој листи <code class="docutils literal notranslate"><span class="pre">New</span> <span class="pre">Slide</span></code> на картици <strong>Home</strong>.</p>
-<a class="reference internal image-reference" href="../_images/L610S8.png"><img alt="../_images/L610S8.png" class="align-center" src="../_images/L610S8.png" style="width: 400px;" /></a>
-<p>У петом разреду смо научили да се презентација састоји од слајдова, на које уносимо текст, слике, звучне и видео садржаје, табеле… Текст који унесемо на слајд едитујемо и форматирамо на исти начин као и у програму за обраду текста. Слику, звук, видео-запис, симболе… додајемо на слајд на картици <strong>Insert</strong>, на исти начин као у програму за обраду текста.</p>
-<a class="reference internal image-reference" href="../_images/L610S9.PNG"><img alt="../_images/L610S9.PNG" class="align-center" src="../_images/L610S9.PNG" style="width: 700px;" /></a>
+<div class="figure align-center">
+<a class="screenshot-shadow reference internal image-reference" href="../_images/L610S8.png"><img alt="../_images/L610S8.png" class="screenshot-shadow" src="../_images/L610S8.png" style="width: 400px;" /></a>
+</div>
+<p>Већ си имао прилике да видиш да се презентација састоји од слајдова, на које уносиш текст, слике, звучне и видео садржаје, табеле… Текст који унесеш на слајд едитујеш и форматираш на исти начин као и у програму за обраду текста. Слику, звук, видео-запис, симболе… додајеш на слајд на картици Insert, на исти начин као у програму за обраду текста.</p>
+<div class="figure align-center">
+<a class="screenshot-shadow reference internal image-reference" href="../_images/L610S9.PNG"><img alt="../_images/L610S9.PNG" class="screenshot-shadow" src="../_images/L610S9.PNG" style="width: 780px;" /></a>
+</div>
 <p>Опис поступка за рад са мастер-слајдом можемо да погледамо на доњем видеу:</p>
 
     <div  id="rhgoe3LirkA" class="ytvideo"  style="text-align: center; margin: 15px; cursor:pointer;">
         <div style="background-image: url('https://img.youtube.com/vi/rhgoe3LirkA/mqdefault.jpg'); background-repeat: no-repeat;background-position: center; height: 210px; width: 310px; margin: 0 auto; border: 1px solid #20c997">
-            <img src="/_static/images/play_button.svg" style="margin-top: 78px;" /> 
+            <img src="../_static/images/play_button.svg" style="margin-top: 78px;" /> 
         </div>
       
 
@@ -521,20 +502,31 @@
     </div>
     
     
-    <p>Кликом на картицу <strong>File</strong>, које се налази у горњем левом углу прозора, добијамо могућност да сачувамо презентацију, али и да креирамо нову или отворимо постојећу. Презентацију покрећемо помоћу тастатуре, притиском на тастер <strong>F5</strong> или одабиром картице <code class="docutils literal notranslate"><span class="pre">Slide</span> <span class="pre">Show</span></code> → <code class="docutils literal notranslate"><span class="pre">From</span> <span class="pre">Beginning</span> <span class="pre">/</span> <span class="pre">Slide</span> <span class="pre">Show</span></code> → <code class="docutils literal notranslate"><span class="pre">From</span> <span class="pre">Current</span> <span class="pre">Slide</span></code>.</p>
-<p>Да се подсетимо, мултимедијалана презентација има сврху само ако, подржава усмено излагање.</p>
-<p>Да би презентација имала утицај на публику, потребно је да:</p>
-<ul class="simple">
-<li><p>добро проучимо тему о којој се говори;</p></li>
-<li><p>увежбамо усмено излагање, најбоље пред укућанима или огледалом (јако је важно да текст није научен напамет);</p></li>
-<li><p>током излагања потребно је да остваримо контакт очима са публиком, уз осмех и гестикулацију;</p></li>
-<li><p>не читамо са слајдова;</p></li>
-<li><p>публика добије довољно времена за питања.</p></li>
-</ul>
+    <div class="section" id="id2">
+<h2>Покретање презентације и презентовање<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<p>Кликом на картицу <strong>File</strong>, које се налази у горњем левом углу прозора, добијаš могућност да сачувамо презентацију, али и да креираš нову или отворимо постојећу. Презентацију покрећеš помоћу тастатуре, притиском на тастер <strong>F5</strong> или одабиром картице <code class="docutils literal notranslate"><span class="pre">Slide</span> <span class="pre">Show</span></code> → <code class="docutils literal notranslate"><span class="pre">From</span> <span class="pre">Beginning</span> <span class="pre">/</span> <span class="pre">Slide</span> <span class="pre">Show</span></code> → <code class="docutils literal notranslate"><span class="pre">From</span> <span class="pre">Current</span> <span class="pre">Slide</span></code>.</p>
+<p>Мултимедијалну презентацију обично прати усмено излагање. У посебним случајевима, презентација се може снимити и користити и као видео запис, са звуком или без њега (на пример као реклама или као видео предавање).</p>
+<p>Да би презентација имала жељени утицај на публику, потребно је да:
+•       <strong>добро проучиш</strong> тему о којој говориш;
+•       <strong>увежбаш усмено излагање</strong>, најбоље пред укућанима или огледалом (јако је важно да текст није научен напамет);
+•       током излагања потребно је да оствариш <strong>контакт очима са публиком</strong>, уз осмех и гестикулацију;
+•       <strong>не читаш</strong> са слајдова;
+•       публика добије <strong>довољно времена</strong> за питања</p>
 
-    <div class="course-box course-box-info">
+    <div class="note-wrapper suggestionnote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/suggestionnote-img.svg" class="note-image suggestionnote-image" /> 
         <div class="course-content">
-            <p>
+            
+<p>Презентација треба да је прегледна, јасна и читљива! Уколико припремаш презентацију за неку посебну прилику, провери и услове у просторији у којој ћеш излагати (осветљење, позицију пројектора и платна, начин управљања презентацијом и сл.) – све то утиче на успешност!</p>
+
+    </div></div>
+
+    <div class="note-wrapper infonote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/infonote-img.svg" class="note-image infonote-image" /> 
+        <div class="course-content">
+            
 <dl class="simple">
 <dt><strong>Шта смо научили?</strong></dt><dd><ul class="simple">
 <li><p>да појам презентација означава процес представљања неке теме публици;</p></li>
@@ -544,7 +536,8 @@
 </dd>
 </dl>
 
-    </p></div></div>
+    </div></div>
+</div>
 </div>
 
 
