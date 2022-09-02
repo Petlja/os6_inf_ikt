@@ -250,11 +250,8 @@ lessons:
         file: Задатак_9_Рад_са_видео_записом.rst
         description: #opciono
         guid: 931e0957-6aca-4e00-bdf1-1110e4cd0520      
-      - type: quiz 
-        title: Квиз. Рад са видео-записом
-        file: Тест_9_Рад_са_видео_записом.rst
-        description: ...
-        guid: 456dc1c2-8cbc-4823-99ac-77800d62427b
+    archived-activities: 
+      - guid: 456dc1c2-8cbc-4823-99ac-77800d62427b
   - title: 1.10. Мултимедијалне презентације
     folder: Час 1.10. Мултимедијалне презентације
     guid: 59bac8be-e924-437b-bfc8-f83480c9df4d
