@@ -23,6 +23,11 @@
     
     Сачувај слику под именом **digitalni uređaji1.jpg**. 
 
+
+.. figure:: ../../_images/1_3_2.png
+    :width: 300px
+
+
 .. questionnote::
 
     **Задатак 2.**
