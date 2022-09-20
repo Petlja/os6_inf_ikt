@@ -26,7 +26,7 @@
         :feedback_c: Тачно
         :answer_d: дељење хардвера и софтвера
         :feedback_d: Тачно
-        :answer_e: већа сигурност података
+        :answer_e: већа безбедност података
         :feedback_e: Нетачно    
         :correct: a,c,d
 
@@ -36,15 +36,15 @@
 
     .. mchoice:: Подела рачунарских мрежа према растојању
         :multiple_answers:
-        :answer_a: WAN (Wide Area Network) - Мреже ширег подручја
+        :answer_a: WAN (Wide Area Network) - мреже ширег подручја
         :feedback_a: Тачно    
-        :answer_b: CAN (City Area Network) - Градске рачунарске мреже
+        :answer_b: CAN (City Area Network) - градске рачунарске мреже
         :feedback_b: Нетачно    
-        :answer_c: LAN (Local Area Network) - Локалне рачунарске мреже
+        :answer_c: LAN (Local Area Network) - локалне рачунарске мреже
         :feedback_c: Тачно
-        :answer_d: PAN (Personal Area Network) - Личне рачунарске мреже
+        :answer_d: PAN (Personal Area Network) - личне рачунарске мреже
         :feedback_d: Тачно
-        :answer_e: Интернет - Глобална рачунарска мрежа
+        :answer_e: интернет - глобална рачунарска мрежа
         :feedback_e: Тачно 
         :correct: a,c,d,e
 
@@ -64,9 +64,9 @@
 .. quizq::
 
     .. mchoice:: Протоколи
-        :answer_a: Нетачно
+        :answer_a: нетачно
         :feedback_a: Нетачно    
-        :answer_b: Тачно
+        :answer_b: тачно
         :feedback_b: Тачно   
         :correct: b
 
@@ -128,18 +128,6 @@
 
         Како се назива јединствена адреса неког ресурса на интернету, попут појединачне интернет странице, датотеке, или сервиса? Изабери тачан одговор:
     
-.. quizq::
-
-    .. mchoice:: DNS
-        :answer_a: Domain Name System - DNS
-        :feedback_a: Тачно
-        :answer_b: Local Name Server - LNS
-        :feedback_b: Нетачно
-        :answer_c: Uniform Resource System - URS
-        :feedback_c: Нетачно
-        :correct: a
-
-        Како се назива систем који претвара мнемоничку адресу у IP адресу? Изабери тачан одговор:
 
 .. quizq::
 
