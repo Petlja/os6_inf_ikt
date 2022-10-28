@@ -156,7 +156,7 @@
 
 .. gallery:: primer_galerija
     :folder: ../../_images
-    :images: Upitnik17.png, Upitnik18.png, Upitnik19.png, Upitnik20.png,
+    :images: Upitnik17.png, Upitnik18.png, Upitnik19.png, Upitnik20.png
     :width:
     :height:
 
@@ -193,7 +193,7 @@ Microsoft Forms нуди више опција слања и прикупљањ�
 
 .. gallery:: primer_galerija
     :folder: ../../_images
-    :images: Upitnik25.png, Upitnik26.png, Upitnik27.png, Upitnik28.png,
+    :images: Upitnik25.png, Upitnik26.png, Upitnik27.png, Upitnik28.png
     :width:
     :height:
 
@@ -202,7 +202,7 @@ Microsoft Forms нуди више опција слања и прикупљањ�
 
 .. gallery:: primer_galerija
     :folder: ../../_images
-    :images: Upitnik29.png, Upitnik30.png, Upitnik31.png, Upitnik32.png,
+    :images: Upitnik29.png, Upitnik30.png, Upitnik31.png, Upitnik32.png
     :width:
     :height:
 
