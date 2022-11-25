@@ -20,7 +20,7 @@
         :multiple_answers:
         :answer_a: електронска пошта
         :feedback_a: Тачно    
-        :answer_b: њorld Wide web
+        :answer_b: World Wide web
         :feedback_b: Нетачно    
         :answer_c: дискусионе групе
         :feedback_c: Тачно
