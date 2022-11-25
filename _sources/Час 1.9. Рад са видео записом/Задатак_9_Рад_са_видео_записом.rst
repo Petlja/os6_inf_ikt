@@ -5,7 +5,7 @@
     
     **Задатак 1.**
 
-    Покрени програм за обраду видео-записа. Преузми видео-запис `filmPriroda.mp4 <https://petljamediastorage.blob.core.windows.net/root/Media/Default/Kursevi/OnlineNastava/6_razred_IKT_DigitalnaPismenost/filmPriroda.mp4>`_и звучни-запис `zvuk.mp3 <https://petljamediastorage.blob.core.windows.net/root/Media/Default/Kursevi/OnlineNastava/6_razred_IKT_DigitalnaPismenost/zvuk.mp3>`_. Учитај видео-запис и затим уради следеће:
+    Покрени програм за обраду видео-записа. Преузми видео-запис `filmPriroda.mp4 <https://petljamediastorage.blob.core.windows.net/root/Media/Default/Kursevi/OnlineNastava/6_razred_IKT_DigitalnaPismenost/filmPriroda.mp4>`_ и звучни-запис `zvuk.mp3 <https://petljamediastorage.blob.core.windows.net/root/Media/Default/Kursevi/OnlineNastava/6_razred_IKT_DigitalnaPismenost/zvuk.mp3>`_. Учитај видео-запис и затим уради следеће:
     •	додај уводну шпицу са насловом  у трајању од три секунде;
     •	додај аудио-запис zvuk.mp3 тако да се чује од почетка видео-записа, али да стартује на 1:15 (75 секунди) од почетка звучног-записа;
     •	додај завршну шпицу у трајању од три секунде са именом и презименом аутора (напиши своје име и презиме) .
