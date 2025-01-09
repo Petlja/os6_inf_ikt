@@ -89,6 +89,8 @@
 Форматирање и едитовање текста можеш обавити и у програму Google Docs (Гугл документи).
 **Google Docs** је сервис у облаку, компаније Гугл, који има велики број алатки сличних алаткама које користиш у Word-у. То је **бесплатан сервис**, а приступа му се преко посебно креираног налога. Могуће је уносити текст и радити у Гугл документима и без налога – ***анонимно**, али је потребно да неко, ко има налог, подели са тобом документ (пошаље ти линк и дозволи приступ документу). 
 
+.. Ja bih ovo (rečenicu i video) izbacio odavde, ovde se objašnjava Google Docs i odjedanput čuvanje fajla u Wordu i u One driveu, možda premestiti na drugo mesto, ne znam. Dalje nastavlja Google Docs, malo mi štrči ovde. 
+
 На  доњем видеу погледај како да сачуваш текст на рачунару или облаку података:
 
 .. ytpopup:: TzVcHlsAEZk
