@@ -1,8 +1,6 @@
 Задаци. Рад са текстом форматирање карактера и пасуса
 =====================================================
 
-.. Ne znam kako će učenici uneti karakter "â" ako nisu učili Insert - Symbol. Vidim da je u petom isti tekst bez objašnenja umetanja simbola.
-
 .. questionnote::
 
     Задатак 1.
