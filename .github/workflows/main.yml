@@ -11,10 +11,10 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
 
     - name: Set up Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v5
       with:
         python-version: '3.9'
 
@@ -28,7 +28,7 @@ jobs:
       run: |
         petljadoc publish
         COURSE_ID=$(python -c "import yaml; data = yaml.safe_load(open('docs/index.yaml')); print(data['courseId'])")
-        echo "::set-output name=courseId::$COURSE_ID"
+        echo "courseId=$COURSE_ID" >> $GITHUB_OUTPUT
 
     - name: Install Azure CLI
       run: |
