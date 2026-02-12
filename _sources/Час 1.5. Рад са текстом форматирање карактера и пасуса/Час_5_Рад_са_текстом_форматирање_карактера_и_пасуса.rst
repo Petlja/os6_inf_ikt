@@ -66,7 +66,7 @@
 .. |razmak| image:: ../../_images/L65S8.PNG
                :width: 30px
 
-.. |nevidljivo| image:: ../../_images/L65S5.PNG
+.. |nevidljivo| image:: ../../_images/L65S5.png
                :width: 30px
 
 Размак између редова подешавамо кликом на |razmak|. 
