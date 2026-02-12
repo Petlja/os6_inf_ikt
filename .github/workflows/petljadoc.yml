@@ -33,17 +33,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.10' 
-      - name: Install Petljadoc
-        run: |
-          pip install petljadoc
+      - uses: astral-sh/setup-uv@v4
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
       - name: Build with Petljadoc
-        run: petljadoc publish --warnaserror
+        run: uv run petljadoc publish --warnaserror
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
