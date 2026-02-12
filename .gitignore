@@ -11,3 +11,5 @@ override.json
 course.json
 export
 .venv
+uv.lock
+docs
