@@ -8,7 +8,7 @@
 
     Покрени програм за обраду текста и креирај табелу као на слици.
 
-    .. image:: ../../_images/L66S6.png
+    .. image:: ../../_images/L66S6.PNG
         :width: 600px
         :align: center
 
